@@ -1,0 +1,26 @@
+<?php
+	return[
+	"About_credit" => "Sobre los créditos",
+	"Credit_explain" => "Puedes comprar nuestros servicios usando créditos. Compra créditos mediante Paypal o tarjeta bancaria. Tener créditos te permitirá impulsar tu encuesta y conseguir más respuestas.",
+	"Buy_credit" => "Comprar créditos",
+	"Price" => "Precio",
+	"Amount_answer" => "Cantidad de respuestas",
+	"Purchase" => "Comprar",
+	"Share_survey" => "Compartir encuesta",
+	"Share_survey_explain" => "Puedes compartir tu encuesta con tus amigos en tus redes sociales pidiendo que respondan a tu encuesta",
+	"Credit_explain_2" => "Usar esta herramienta te dará créditos en Poll Animal como obsequio.",
+
+	"Urgent_Option_title" => "¿Cómo de rápido necesitas tus respuestas?",
+	"Option1" => "A) Hasta 3 días",
+	"Option2" => "B) hasta 7 días",
+	"Option3" => "C) 30 días",
+	"Paypal" => "Paypal",
+	"Bank_card" => "Tarjeta bancaria",
+	"Get_free_credit" => "Obtener crédito gratis",
+	"Get_credit_by_sharing" => "Puedes obtener crédito compartiendo con la red social.",
+	"Total_credits" => "Creditos totales",
+	"Balance_credits" => "Saldo de creditos",
+	"Date" => "Fecha",
+	"Actions" => "Acciones",
+	"Credits" => "Creditos",
+	];

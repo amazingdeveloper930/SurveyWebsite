@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Container/Container.php(1172): Illuminate\Foundation\Application->make('config')
+#5 /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(57): Illuminate\Container\Container->offsetGet('config')
+#6 /var/www in /var/www/pollanimal/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729

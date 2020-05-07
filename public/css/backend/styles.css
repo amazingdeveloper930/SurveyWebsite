@@ -1,0 +1,91 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 70px 0 46px;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 46px;
+    padding: 10px 0;
+    background-color: #080808;
+    color: #fff;
+}
+
+footer a {
+    color: #eee;
+    text-decoration: none;
+    border-bottom: 1px dotted #888;
+}
+
+footer a:hover {
+    color: #aaa;
+    text-decoration: none;
+    border: 0px;
+}
+
+footer hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: #000 1px solid;
+    border-bottom: #212121 1px solid;
+}
+
+footer .copy {
+    font-size: 13px;
+    margin: 15px 0px;
+}
+
+/* Table */
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.table tr th:last-child,
+.table tr td:last-child {
+    text-align: right;
+}
+
+/* Login & Signup */
+
+
+/* Badge */
+.badge {
+    font-size: 10px;
+    border-radius: 2px;
+    background-color: #aaa;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+
+.badge-info {
+    background-color: #337ab7;
+}
+
+
+.glyphicon-share-alt.flip-horizontal {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+.photo .img-responsive {
+    margin: 0 auto;
+}

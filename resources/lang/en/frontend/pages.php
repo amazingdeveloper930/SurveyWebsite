@@ -1,0 +1,42 @@
+<?php
+
+return [
+	"All_survey" => "ALL SURVEYS",
+
+		
+"Question_1" => "How to create a new survey?",
+"Answer_1" => "When you are in your account (Dashboard) click “Create survey” in navigation bar or “Create new survey” in “My Surveys” board. In opened window fill out the form: write title and description of survey. In the survey settings you can mark, if you want, that results would be shown to respondents, get replies by email or allow multiple responses from one computer and save it. Then go to questions page and select what type of questions do you want to add. When you finish to add your questions click the save button. When your survey will be ready, in Survey settings mark Survey in public, Survey is not ready to launch and save it.",
+"Question_2" => "How to set the question compulsory or optional to answer?",
+"Answer_2" => "At this moment the questions on default set optional. But if you want that the respondents cannot skip the questions you should mark compulsory question in the Add question window. Also, do not forget to click Add question.",
+"Question_3" => "How to get the answer?",
+"Answer_3" => "When you finish to create your survey and it will be set as public and ready to launch, in Survey settings you will find the Direct link of your survey. You can copy this link and sent to your respondents by email, social network or place this link in forum.",
+"Question_4" => "How many questions user can add in survey?",
+"Answer_4" => "User can add questions as many as he/she wants. But it is important not to burden the survey.",
+"Signup_login_account" => "Sign up, Login, My Account",
+"Create_survey" => "Create Survey",
+"Question_5" => "How to Sign Up?",
+"Answer_5" => "In Sign Up page fill out the Sign up form: write your Username, Email,create a password and confirm it, mark that you agree with the Terms and Conditions and click Submit. If You want You can connect with social apps, for example, Facebook, Twitter and Google+",
+"Question_6" => "What to do if you forget password of your account?",
+"Answer_6" => "If you forgot your password, you can reset it. First of all you should go to Forgot password page, enter your email address and select “Confirm”. Then check your email and confirm your password to reset.",
+"Results" => "Results",
+"Question_7" => "How to see the results?",
+"Answer_7" => "User can all the time check his results of survey in his dashboard/results. Click “Report” and enter the results page to see the data you receive. You can view all response and data visualization on my website. Or, you can click the “Export” button to download data.",
+"Question_8" => "Can respondents view results after answering?",
+"Answer_8" => "Yes, if you mark this choice in Survey management/Survey settings/Show results to respondents.",
+"Question_9" => "How many respondents can answer to survey from one computer?",
+"Answer_9" => "By default, one respondent can answer from one computer, but if you want, you can change this in Survey management/Survey settings by marked Allow multiple responses from one computer.",
+"Payments" => "Payments",
+"Question_10" => "What forms of payment are acceptable?",
+"Answer_10" => "We accept payments by bank card and PayPal.",
+"Question_11" => "What can I buy in this website?",
+"Answer_11" => "You can buy credits of this system and spend them for various services.",
+"Question_12" => "How can I refund my money?",
+"Answer_12" => "Read our Terms and Conditions.",
+
+"Contacts" => "CONTACTS",
+"Contact_with_us" => "CONTACT WITH US",
+"Your_name" => "Your Name",
+"Your_mail" => "Your MAil",
+"Your_message" => "Your Message",
+"Send_message" => "Send Message",
+];

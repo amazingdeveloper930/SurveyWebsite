@@ -1,0 +1,66 @@
+
+.bg-slategray.lt {
+    background-color: #495a72 !important;
+}
+
+.btn.btn-greensea:hover, .btn.btn-greensea:active, .btn.btn-greensea.active {
+    background-color: #e6af2a !important;
+    border-color: #e6af2a !important;
+    color: white;
+}
+
+.btn.btn-greensea {
+    background-color: #16a085 !important;
+    color: white;
+    border-color: #16a085 !important;
+}
+
+.page-core {
+    background-color: #ffcb4f !important;
+}
+
+.text-greensea {
+    color: #16a085 !important;
+}
+
+.btn.btn-lightred {
+    background-color: #16a085 !important;
+    color: white;
+    border-color: #16a085 !important;
+}
+
+.btn.btn-lightred:hover {
+	background-color: #16a085 !important;
+    border-color: #16a085 !important;
+}
+
+.btn.btn-lightred {
+    background-color: #16a085 !important;
+    color: white;
+    border-color: #16a085 !important;
+}
+
+.btn.btn-greensea:hover {
+	background-color: #ffcb4f !important;
+    border-color: #ffcb4f !important;
+}
+
+#header {
+    /* background-color: #E6AF2A; */
+    background-color: #51445f !important;
+}
+
+#navigation > li.active > a {
+    background-color: #16a085 !important;
+    color: white;
+}
+
+.cusmenu 
+{
+    font-size: 15px !important;
+}
+
+.cusmenuicon
+{
+    font-size: 18px !important;
+}

@@ -1,0 +1,4676 @@
+/*------------------------------------------------------------------
+.______    __  ___   ___  __   _______  ___________    ____ 
+|   _  \  |  | \  \ /  / |  | |   ____||   ____\   \  /   / 
+|  |_)  | |  |  \  V  /  |  | |  |__   |  |__   \   \/   /  
+|   ___/  |  |   >   <   |  | |   __|  |   __|   \_    _/   
+|  |      |  |  /  .  \  |  | |  |____ |  |        |  |     
+| _|      |__| /__/ \__\ |__| |_______||__|        |__|     
+
+
+@charset "utf-8";
+
+[Main Stylesheet]
+
+Project:    Agent
+Version:    0.1
+Last change:    17.5.2017
+Primary use:    Agency Agent Template
+
+
+================== Font Famil Used =================
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+[Typography]
+
+Body:               16px 'Open Sans', sans-serif;
+Paragraph:          'Open Sans', sans-serif;
+
+/*==============================
+[Table of contents]
+
+
+1. Typography
+2. Main Menu
+3. Welcome Area
+4. Welcome Bottom Slider
+5. Special Assignment
+6. OUR TEAM
+7. Need Any Services From Us?
+8. OUR PRICING
+9. OUR SERVICE
+10. WHY CHOSE US
+11. Agent Our Work Section
+12. Blog
+13. Testimonial
+14. Our Clients Slider
+15. Contact Us Section
+16. Map
+17. Footer
+18. Magnific Pop Up
+19. Owl SLider Custom
+
+
+
+===================================== Agent V2 Index Start ==================================
+20. Agent Version 2 Main Menu
+21. Agent Version 2 Welcome Section
+22. Agent Version 2 About Section
+23. Agent Version 2 Our Team
+24. Agent Version 2 Need any Service ? JUST SAY HI TO START
+25. Agent Version 2 What We Do 
+26. Revulation SLider Custom
+
+
+ =========================================Agent Inner Section==================================
+27. Agent Single Page Welcome Section
+28. Great Ideas Special Assignment
+29. WE ARE PROVIDING SERVICES SICNCE 30 YEARS TO OUR COUSTOMERS.
+30. Agent About Version 2
+31. Agent Service Overview
+32. How We Progress Our Work
+34. Map Contact Page
+35. Agent Page Contact Section
+36. Agent Single Portfolio Page
+37. Agent Single Blog With Sidebar
+38. Blog Page With Side Bar
+39. Side Bar
+40. Blog Single Post
+41. Agent Blog With Out Side Bar
+
+-------------------------------------------------------------------
+
+
+/*--------------------------------------------------------------============================================================
+										1. Typography
+=============================================================--------------------------------------------------------------*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333333;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+iframe{
+    border: none;
+}
+a, b, div, ul, li{
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
+	-moz-outline-: none;
+}
+
+a:focus,
+a:active,
+input,
+input:hover,
+input:focus,
+input:active,
+textarea,
+textarea:hover,
+textarea:focus,
+textarea:active{
+	-moz-outline: none;
+	outline: none;
+}
+img:not([draggable]), embed, object, video{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	outline: 0;
+}
+a:active,
+a:focus,
+a:hover,
+a:visited{
+	text-decoration: none;
+	outline: 0;
+}
+img {
+	border: none;
+	max-width: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.clear-both:before, .clear-both:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.section-padding{
+	padding: 150px 0px;
+}
+.agent-simple-text-section-area.section-padding{
+	padding: 0 0 105px;
+}
+.agent-our-work-section-2.section-padding{
+	padding: 0 0 150px;
+}
+.agent-our-work-section-1.section-padding{
+	padding: 150px 0 0;
+}
+.agent-why-choose-us-section.section-padding{
+	padding: 150px 0 90px;
+}
+.content-margin-top{
+	margin-top: 60px;
+}
+.content-margin-top-v2{
+	margin-top: 150px;
+}
+.agent-what-we-do-section-area .content-margin-top-v2{
+	margin-top: 110px;
+}
+.agent-about-us-section-v2 .content-margin-top-v2{
+	margin-top: 0;
+}
+.agent-our-work-section-2 .agent-btn{
+	margin-top: 100px;
+}
+.agent-our-blog-section .content-margin-top{
+	margin-bottom: 100px;
+}
+.agent-padding-minus{
+	padding: 0px;
+}
+.agent-content-tbl{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.agent-content-tbl-c{
+	display: table-cell;
+	vertical-align: middle;
+}
+.agent-welcome-tbl{
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.agent-welcome-tbl-c{
+	display: table-cell;
+	vertical-align: middle;
+}
+.agent-btn{
+	display: inline-block;
+	color: #fff;
+	background-color: #333333;
+	text-transform: uppercase;
+	padding: 18px 59px;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-pricing-table-wraper:hover .agent-btn{
+	color: #fff;
+}
+
+.brown-btn{
+	background-color: #E6AF2A;
+}
+.brown-btn:hover{
+	background-color: #333;
+	color: #fff;
+}
+.agent-box-shadow{
+	box-shadow: 0 0 9px rgba(0,0,0,.1);
+}
+.agent-simple-btn{
+	color: #E6AF2A;
+	font-size: 1.125em;
+	font-style: italic;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-underline-btn{
+	text-decoration: underline;
+	font-size: 1em;
+}
+.agent-underline-btn:hover{
+	text-decoration: underline;
+}
+.agent-about-us-v2-content .agent-underline-btn{
+	font-style: normal;
+}
+.agent-simple-btn:hover{
+	color: #E6AF2A;
+}
+.border-btn{
+	background-color: transparent;
+	border: solid 2px #fff;
+	padding: 17px 59px;
+}
+.agent-gray-bg{
+	background-color: #F8F8F8;
+}
+.agent-section-heading{
+	position: relative;
+	z-index: 2;
+}
+.agent-section-heading h2{
+	font-size: 3.125em;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.agent-section-heading.agent-section-heading-white-color h2 {
+	color: #FFFFFF;
+}
+.agent-header-spearetor{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	line-height: 35px;
+	position: relative;
+}
+.agent-header-spearetor:before,
+.agent-header-spearetor:after{
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 100%;
+	width: 64px;
+	height: 1px;
+	background-color: #c1c1c1;
+	-webkit-transform: translate(30% , -50%);
+	        transform: translate(30% , -50%);
+}
+.agent-header-spearetor:after{
+	left: inherit;
+	right: 100%;
+	-webkit-transform: translate(-30% , -50%);
+	        transform: translate(-30% , -50%);
+}
+.agent-section-heading-v2{
+	position: relative;
+	z-index: 1;
+}
+.agent-section-heading-v2 h2{
+	font-size: 3.125em;
+	text-transform: uppercase;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	z-index: 3;
+	line-height: 1;
+}
+.agent-section-heading-v2 h2:before{
+	position: absolute;
+	content: "";
+	top: 60%;
+	left: 50%;
+	height: 132px;
+	width: 99px;
+	background-image: url(img/v2-about-heading-bg.png);
+	background-repeat: no-repeat;
+	z-index: -1;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	opacity: .23;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=23)";
+}
+.agent-our-team-section-area-v2 .agent-section-heading-v2 h2:before,
+.agent-what-we-do-section-area .agent-section-heading-v2 h2:before,
+.agent-our-service-section-v2 .agent-section-heading-v2 h2:before,
+.agent-our-service-tab-version .agent-section-heading-v2 h2:before,
+.agent-our-work-section-1-v-2 .agent-section-heading-v2 h2:before,
+.agent-testimonials-section-v-2 .agent-section-heading-v2 h2:before,
+.agent-our-blog-section-v-2 .agent-section-heading-v2 h2:before{
+	content: "\e046";
+	font-family: 'et-line';
+	font-size: 125px;
+	background-image: none;
+	height: inherit;
+	width: inherit;
+	font-weight: 300;
+}
+.agent-testimonials-section-v-2 .agent-section-heading-v2 h2:before{
+	content: "\e049"
+}
+.agent-our-blog-section-v-2 .agent-section-heading-v2 h2:before{
+	content: "\e044"
+}
+.agent-what-we-do-section-area .agent-section-heading-v2 h2:before{
+	content: "\e033";
+}
+
+.agent-our-work-section-1-v-2 .agent-section-heading-v2 h2:before{
+	content: "\e023";
+}
+.agent-our-service-section-v2 .agent-section-heading-v2 h2:before,
+.agent-our-service-tab-version .agent-section-heading-v2 h2:before{
+	content: "\e035";
+}
+.agent-section-heading-white-color h2,
+.agent-our-service-tab-version .agent-section-heading-v2 h2{
+	color: #FFFFFF;
+}
+
+.agent-service-v-2 .agent-section-heading h2,
+.agent-service-v-3 .agent-section-heading h2,
+.agent-our-work-section-1 .agent-section-heading h2,
+.agent-our-team-bg-version .agent-section-heading h2{
+	color: #FFFFFF;
+}
+#preloader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	z-index: 9999999999;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* 
+=======================
+   Preloader
+=======================
+*/
+
+.loading-page {
+  background: #0d0d0d;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.loading-page .counter {
+  text-align: center;
+}
+.loading-page .counter p {
+  font-size: 40px;
+  font-weight: 100;
+  color: #E6AF2A;
+}
+.loading-page .counter h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: -10px;
+}
+.loading-page .counter hr {
+  background: #E6AF2A;
+  border: none;
+  height: 1px;
+  float: left;
+}
+.loading-page .counter {
+  position: relative;
+  width: 200px;
+}
+.loading-page .counter h1.abs {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.loading-page .counter .color {
+  width: 0px;
+  overflow: hidden;
+  color: #E6AF2A;
+}
+
+blockquote {
+	font-size: inherit;
+}
+
+/* ============================================================================================
+						All Source Sans Pro Fonts Used List
+============================================================================================== */
+
+.agent-section-heading h2,
+.agent-welcome-content h1,
+.agent-left-side-simple-text h4,
+.agent-left-side-simple-text h2,
+.agent-our-team-single-wraper h3,
+.agent-need-any-service-wraper article h2,
+.agent-welcome-section-v2 .agent-welcome-content-wraper h4,
+.agent-welcome-section-v2 .agent-welcome-content-wraper h1,
+.agent-section-heading-v2 h2,
+.agent-about-us-v2-content h5,
+.agent-about-us-v2-content h4,
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper h5,
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper h2,
+.agent-our-blog-v-2-content h2,
+.agent-single-page-content h2,
+.agent-progress-our-work h3,
+.agent-progress-our-work h2,
+.agent-blog-single-post-footer h2,
+.agent-blog-single-post-page .agent-blog-single-post h2{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* ==============================================================================================
+				All Color List
+===================================================================================================== */
+
+.agent-main-menu-area.sticky-menu .agent-main-menu ul li a:hover,
+.agent-main-menu ul li a:hover,
+.agent-left-side-simple-text h4,
+.agent-list-items ul li i,
+.agent-our-team-single-wraper h5,
+.agent-pricing-table-wraper span.agent-icon,
+.agent-square-single-wraper:hover .agent-service-icon,
+.agent-welcome-bottom-single-wraper:hover .agent-service-icon,
+.agent-our-service-tab-version .nav li.active a i,
+.agent-service-left-txt h3,
+.agent-why-choose-us-single-wraper:before,
+.agent-blog-footer a h3:hover,
+.agent-social-links ul li a,
+.agent-single-post a p:hover,
+.agent-copyright-txt a,
+.agent-welcome-section-v2 .agent-welcome-content-wraper h1,
+.agent-welcome-section-v3 .agent-welcome-content-wraper h1,
+.agent-about-us-v2-content h4,
+.agent-our-team-section-area-v2 .agent-section-heading-v2 h2:before,
+.agent-accordion .panel-title a:before,
+.hesperiden.tparrows:hover,
+.hesperiden.tparrows:hover.tp-leftarrow:before,
+.hesperiden.tparrows:hover.tp-rightarrow:before,
+.agent-our-blog-v-2-single-item:hover .agent-our-blog-v-2-content h2,
+.agent-single-page-content h2:before,
+.agent-accordion .panel-title a:before,
+.agent-our-team-section-area-v2 .agent-section-heading-v2 h2:before,
+.agent-what-we-do-section-area .agent-section-heading-v2 h2:before,
+.agent-our-service-section-v2 .agent-section-heading-v2 h2:before,
+.agent-our-service-tab-version .agent-section-heading-v2 h2:before,
+.agent-our-work-section-1-v-2 .agent-section-heading-v2 h2:before,
+.agent-testimonials-section-v-2 .agent-section-heading-v2 h2:before,
+.agent-our-blog-section-v-2 .agent-section-heading-v2 h2:before,
+.agent-about-page-fun-fact blockquote h3,
+.agent-progress-our-work h3,
+.agent-single-post-date-and-time h6,
+.agent-blog-single-post-footer .agent-blog-tag h4{
+	color: #E6AF2A;
+}
+
+.agent-welcome-section-v2 .agent-welcome-content-wraper p,
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper h5{
+	color: #EEEEEE;
+}
+.agent-about-us-v2-content h4 span{
+	color: #939393;
+}
+
+
+.agent-welcome-bottom-single-wraper h3,
+.agent-left-side-simple-text h2,
+.agent-list-items ul li,
+.agent-our-team-single-wraper h3,
+.agent-pricing-table-wraper h2,
+.agent-square-single-wraper h5,
+.agent-our-service-tab-version .nav li a h5,
+.agent-blog-links p,
+.agent-blog-links p i,
+.agent-our-blog-v-2-content h2,
+.agent-testimonial-single-wraper p,
+.agent-testimonial-bio h3,
+.agent-contact-us-section h4,
+.agent-copyright-txt,
+.agent-section-heading-v2,
+.agent-section-heading h2,
+.agent-video-section p strong,
+.agent-video-section p,
+.agent-service-overview .agent-single-right-side-servcie p,
+.agent-progress-our-work h2,
+.agent-work-progress-single span,
+.agent-work-progress-single h5,
+.agent-contact-section .agent-contact-us-right-side h4,
+.contact-v-2 h4,
+.agent-blog-publish-date-and-tag,
+.agent-blog-tag a i,
+.agent-blog-single-post-footer p,
+.agent-blog-single-post-page .post-format-standard .agent-blog-social .agent-blog-like, 
+.agent-blog-single-post-page .post-format-standard .agent-blog-social .agent-blog-comment{
+	color: #666666;
+}
+
+/* =================================================================================================================
+		Same Background Color
+================================================================================================== */
+
+.agent-welcome-bottom-single-wraper span,
+.agent-round:before,
+.agent-pricing-table-wraper:hover span.agent-icon,
+.agent-square-single-wraper span,
+.agent-our-service-tab-version .nav li a i,
+.agent-single-grid-item a,
+.agent-blog-head figcaption,
+.agent-testimonial-single-wraper figure img,
+.agent-testimonial-all-item figure img,
+.agent-social-links ul li a:hover,
+.agent-contact-form input[type="submit"],
+.agent-single-footer-wraper input[type="submit"],
+.agent-single-footer-wraper button,
+#agent-testimonial-slider .slick-prev,
+#agent-testimonial-slider .slick-next,
+#agent-welcome-botton-slider .slick-next,
+#agent-welcome-botton-slider .slick-prev,
+#agent-testimonial-slider .slick-dots li.slick-active button:before,
+#agent-testimonial-slider .slick-dots li button:before,
+.agent-welcome-section-v2:after,
+.agent-welcome-section-v2 .agent-welcome-content-wraper h4:before,
+.agent-accordion .panel-title a.collapsed:before,
+.agent-accordion .panel-title a:before,
+.agent-single-post-date-and-time h5,
+.agent-single-side-bar-form input[type="submit"],
+.agent-blog-comentor-bio-and-details{
+	background-color: #E6AF2A;
+}
+
+/*===================================================================== 
+		All Font Weight 
+=========================================================================================*/
+
+.agent-btn,
+.agent-about-us-v2-content .agent-underline-btn,
+.agent-section-heading h2,
+.agent-section-heading-v2 h2,
+.agent-welcome-content p,
+.agent-welcome-bottom-single-wraper h3,
+.agent-left-side-simple-text h4,
+.agent-list-items ul li,
+.agent-our-team-single-wraper h3,
+.agent-pricing-table-wraper h2,
+.agent-square-single-wraper h5,
+.agent-our-service-tab-version .nav li a h5,
+.agent-service-left-txt h3,
+.agent-why-choose-us-single-wraper h4,
+.agent-blog-footer a h3,
+.agent-our-blog-v-2-content h4 span,
+.agent-testimonial-bio h3,
+.agent-contact-us-section h4,
+.agent-single-footer-wraper h4,
+.agent-copyright-txt a,
+.agent-about-us-v2-content h5,
+.agent-about-us-v2-content h4,
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper h5,
+.agent-accordion .panel-title a,
+.agent-single-page-breadcumb ul li a,
+.agent-single-right-side-servcie h2,
+.agent-about-page-fun-fact blockquote,
+.agent-video-section h3,
+.agent-video-section p strong,
+.agent-progress-our-work h3,
+.agent-progress-our-work h2,
+.agent-contact-section .agent-contact-us-right-side h4,
+.contact-v-2 h4,
+.agent-single-page-bottom-content .agent-single-post a p,
+.agent-blog-single-post-footer .agent-blog-tag h4,
+.agent-single-side-bar h4{
+	font-weight: 600;
+}
+.agent-welcome-content h1,
+.agent-left-side-simple-text h2,
+.agent-list-items h4,
+.agent-need-any-service-wraper article h2,
+.agent-pricing-table-wraper h3,
+.agent-our-blog-v-2-content h2,
+.agent-welcome-section-v2 .agent-welcome-content-wraper h1,
+.agent-welcome-section-v3 .agent-welcome-content-wraper h1,
+.agent-single-page-content h2,
+.agent-work-progress-single span{
+	font-weight: 700;
+}
+/* ============================================================================================
+									Agent Start
+===============================================================================================*/
+
+
+/*--------------------------------------------------------------============================================================
+										2. Main Menu
+=============================================================--------------------------------------------------------------*/
+
+.agent-main-menu-area{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	padding: 20px 0;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-main-menu-area-v2:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 8px;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	z-index: 99;
+	background-color: #333333;
+}
+.sticky-menu.agent-main-menu-area-v2:before{
+	left: 0;
+	top: 0;
+}
+.agent-main-menu-area-v2:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 50%;
+	width: 634px;
+	height: 8px;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	z-index: 99;
+	background-color: #E6AF2A;
+}
+.agent-main-menu-area.sticky-menu{
+	background-color: rgba(102,102,102,.9);
+	z-index: 99999;
+	padding: 5px 0;
+}
+.agent-main-menu-area-v2.sticky-menu{
+	padding: 13px 0 5px;
+}
+.agent-main-menu-area.sticky-menu .agent-main-menu ul li a{
+	color: #fff;
+}
+.agent-main-menu{
+	text-align: right;
+}
+.agent-main-menu ul li{
+	display: inline-block;
+	padding: 0 10px;
+	position: relative;
+}
+.agent-main-menu ul li a{
+	color: #333333;
+	padding: 20px 0;
+	display: block;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.dl-trigger {
+	display: none;
+}
+/*Dropdown Menu*/
+.agent-main-menu ul>li>ul {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	width: 220px;
+	background-color: #333333;
+	margin-top: 10px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    transition-property: opacity,margin-top,visibility;
+    text-align: left;
+    padding: 4px 0;
+}
+.agent-main-menu ul>li:hover>ul {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0;
+}
+.agent-main-menu ul li ul li {
+	display: block;
+	padding: 0 20px;
+	border-bottom: 1px solid #E6AF2A;
+	position: relative;
+}
+.agent-main-menu ul li ul li:last-child {
+	border-bottom: 0px solid;
+}
+.agent-main-menu ul li ul li a {
+	color: #ffffff !important;
+	padding: 8px 0;
+	font-size: .9em;
+}
+.agent-main-menu ul>li>ul>li ul {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	width: 220px;
+	background-color: #333333;
+	margin-top: 10px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    transition-property: opacity,margin-top,visibility;
+    text-align: left;
+    padding: 4px 0;
+	left: 220px;
+	top: 0px;
+}
+.agent-main-menu ul>li:last-child ul>li>ul,
+.agent-main-menu ul>li:nth-last-child(2) ul>li>ul {
+	right: 220px;
+	left: auto;
+}
+.agent-main-menu ul li ul li.dl-back {
+	display: none;
+}
+/*--------------------------------------------------------------============================================================
+										3. Welcome Area
+=============================================================--------------------------------------------------------------*/
+
+/* Welcome Area Bg*/
+.agent-welcome-section-area{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.agent-welcome-section-area:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.43);
+	z-index: 1;
+}
+.agent-welcome-section-area.rev_slider_wrapper:before {
+	z-index: 99;
+}
+.agent-welcome-content-wraper{
+	margin: 0 auto !important;
+	background-color: rgba(240,240,240,.37);
+	width: 820px;
+	padding: 30px;
+	position: relative;
+	z-index: 2;
+}
+.agent-welcome-content{
+	background-color: rgba(240,240,240,.6);
+	padding: 60px 0 20px !important;
+	position: relative;
+	height: 220px;
+	text-align: center !important;
+}
+.agent-welcome-content:before,
+.agent-welcome-content:after{
+	position: absolute;
+	content: "";
+	width: 102px;
+	height: 102px;
+	border-left: 51px solid #E6AF2A;
+	border-top: 51px solid #E6AF2A;
+	border-bottom: 51px solid transparent;
+	border-right: 51px solid transparent;
+	top: 0;
+	left: 0;
+}
+.agent-welcome-content:after{
+	left: inherit;
+	top: inherit;
+	bottom: 0;
+	right: 0;
+	border-left: 51px solid transparent;
+	border-top: 51px solid transparent;
+	border-bottom: 51px solid #E6AF2A;
+	border-right: 51px solid #E6AF2A;
+}
+.agent-welcome-content h1{
+	font-size: 88px !important;
+	text-transform: uppercase;
+	letter-spacing: 8px !important;
+	margin: 0 !important;
+	margin-bottom: 5px !important;
+}
+.agent-welcome-content h1 span.agent-welcome-left,
+.agent-welcome-content h1 span.agent-welcome-right{
+	font-weight: 400 !important;
+	padding: 0 5px 0 35px !important;
+	width: 103px;
+	height: 103px;
+	display: inline-block;
+	position: relative;
+}
+.agent-welcome-content h1 span.agent-welcome-right{
+	padding : 0 15px 0 0;
+}
+
+.agent-welcome-content h1 span.agent-welcome-right:before,
+.agent-welcome-content h1 span.agent-welcome-left:before{
+	position: absolute;
+	content: "";
+	top: 8px;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border: 1px solid #E7B337;
+}
+.agent-welcome-content h1 span.agent-welcome-left:before{
+	top: -8px;
+}
+.agent-welcome-content h1 span.agent-welcome-right{
+	padding: 0 30px 0 15px !important;
+}
+.agent-welcome-content p{
+	font-size: 21px;
+	margin: 0;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										4. Welcome Bottom Slider
+=============================================================--------------------------------------------------------------*/
+
+.agent-welcome-bottom-single-wraper{
+	padding: 33px 30px;
+	background-color: #fff;
+	margin-top: -60px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	padding-bottom: 50px;
+}
+.agent-welcome-bottom-single-wraper span{
+	width: 121px;
+	height: 121px;
+	border-radius: 100%;
+	line-height: 121px;
+	font-size: 3.750em;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+.agent-welcome-bottom-single-wraper h3{
+	margin: 0;
+	font-size: 1.313em;
+	text-transform: capitalize;
+}
+.agent-welcome-bottom-single-wraper:hover{
+	background-color: rgba(51,51,51,.89);
+}
+
+/*--------------------------------------------------------------============================================================
+										5. Special Assignment
+=============================================================--------------------------------------------------------------*/
+
+.agent-left-side-simple-text h4{
+	margin: 0;
+	font-size: 1.500em;
+	margin-bottom: 20px;
+}
+.agent-left-side-simple-text h2{
+	margin: 0;
+	margin-bottom: 40px;
+	font-size: 3.000em;
+}
+.agent-left-side-para p{
+	margin-bottom: 45px;
+}
+
+.agent-right-side-txt{
+	margin-bottom: 60px
+}
+.agent-list-items-1,
+.agent-list-items-2 {
+	width: 50%;
+	float: left;
+}
+.agent-list-items-2{
+	width: 50%;
+}
+.agent-list-items h4{
+	margin: 0;
+	margin-bottom: 40px;
+	font-size: 1.313em;
+}
+.agent-list-items ul li i{
+	font-size: 1.500em;
+	padding: 0 10px 0 0;
+}
+.agent-list-items ul li{
+	padding: 5px 0
+}
+
+
+/*--------------------------------------------------------------============================================================
+										6. OUR TEAM
+=============================================================--------------------------------------------------------------*/
+
+.agent-our-team-single-wraper{
+	height: 350px;
+	background-color: #fff;
+	position: relative;
+}
+.agent-our-team-single-item {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.agent-our-team-single-item figure {
+	width: 159px;
+	height: 159px;
+	position: absolute;
+	top: 12%;
+	bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
+	transition: all .4s ease;
+}
+.agent-our-team-single-item figcaption {
+	position: absolute;
+	width: 100%;
+	bottom: 12%;
+	top: auto;
+	padding: 15px 0;
+    background-color: #fff;
+	transition: all .4s ease;
+}
+.agent-our-team-single-item:hover figure {
+	top: 0%;
+	width: 100%;
+    height: 100%;
+	transition: all .4s ease 0s;
+}
+.agent-our-team-single-item:hover figure img {
+	transition: all .6s ease;
+	border-radius: 0;
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.agent-our-team-single-item:hover figcaption {
+	bottom: 0%;
+	transition: all .4s ease;
+}
+.agent-our-team-single-wraper figure img{
+	border-radius: 100%;
+	background-color: #f8f8f8;
+	margin-bottom: 20px;
+	transition: all .6s ease;
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+}
+.agent-our-team-single-wraper h3{
+	margin: 0;
+	font-size: 1.313em;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.agent-our-team-single-wraper h5{
+	margin: 0;
+	text-transform: capitalize;
+	font-size: 1em;
+}
+.agent-our-team-bg-version{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.agent-our-team-bg-version:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(146,101,0,.83);
+}
+
+/*--------------------------------------------------------------============================================================
+										7. Need Any Services From Us?
+=============================================================--------------------------------------------------------------*/
+
+.agent-need-any-service-section{
+	background-size: cover;
+	background-position: center center;
+	padding: 60px 0;
+	color: #FFFFFF;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.agent-need-any-service-section img{
+	position: absolute;
+	z-index: 1;
+	bottom: 0%;
+	right: 0;
+	background-size: 100%;
+	height: 500px;
+	width: 50%;
+	background-position: 0 0;
+	-webkit-transform: translateY(5%);
+	        transform: translateY(5%);
+}
+.agent-need-any-service-section:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: -webkit-linear-gradient( 135deg, rgba(17,17,17,0.90196) 0%, rgba(34,34,34,0.96) 56%, rgb(51,51,51) 100%);
+	opacity: 0.859;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
+.agent-need-any-service-wraper{
+	width: 33%;
+	position: relative;
+	z-index: 2;
+}
+.agent-need-any-service-wraper article h2{
+	margin: 0;
+	font-size: 2.250em;
+	margin-bottom: 40px;
+}
+.agent-need-any-service-wraper article h2 span{
+	display: block;
+}
+.agent-need-any-service-wraper article p{
+	color: #E9E9E9;
+	margin-bottom: 0;
+}
+.agent-need-any-service-wraper article{
+	margin-bottom: 40px;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										8. OUR PRICING
+=============================================================--------------------------------------------------------------*/
+
+.agent-pricing-table-wraper{
+	background-color: #fff;
+	padding: 50px 0px;
+}
+
+.agent-pricing-table-wraper span.agent-icon{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: #fff;
+	box-shadow: 0 0 18px rgba(0,0,0,.1);
+	font-size: 3.000em;
+	line-height: 100px;
+	margin-bottom: 30px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-pricing-table-wraper h2{
+	font-size: 2.250em;
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 60px;
+}
+.agent-pricing-table-wraper h3{
+	font-size: 3.750em;
+	margin: 0;
+	margin-bottom: 40px;
+}
+.agent-pricing-table-wraper h3 span{
+	font-size: 0.350em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.agent-pricing-table-wraper ul{
+	text-align: left;
+	padding: 0 0 0 60px;
+	margin-bottom: 60px;
+}
+.agent-pricing-table-wraper ul li{
+	padding: 5px 0;
+}
+.agent-pricing-table-wraper ul li.agent-hiiden-item{
+	color: #e0e0e0;
+}
+
+.agent-round{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #eee;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.agent-pricing-table-wraper .agent-round{
+	top: 4px;
+	left: -6px;
+}
+.agent-round:before{
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	width: 9px;
+	height: 9px;
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.agent-hiiden-item .agent-round:before{
+	background-color: transparent;
+}
+.agent-pricing-table-wraper:hover span.agent-icon{
+	color: #fff;
+	box-shadow: none;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										9. OUR SERVICE
+=============================================================--------------------------------------------------------------*/
+
+.agent-square-single-wraper{
+	height: 390px;
+	background-color: #fff;
+}
+.agent-square-single-wraper span{
+	width: 135px;
+	height: 135px;
+	border-radius: 100%;
+	font-size: 4.063em;
+	color: #fff;
+	line-height: 135px;
+	margin-bottom: 65px;
+}
+.agent-square-single-wraper h5{
+	margin: 0;
+	font-size: 1.313em;
+	text-transform: capitalize;
+}
+
+/* Our Service Version 2  And Our Service Version 3 */
+.agent-service-v-2,
+.agent-service-v-3,
+.agent-our-service-tab-version{
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.agent-service-v-2:before,
+.agent-service-v-3:before,
+.agent-our-service-tab-version:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(52,52,51,.75);
+}
+.agent-service-v-2 .agent-square-single-wraper,
+.agent-service-v-3 .agent-square-single-wraper{
+	background-color: rgba(255,255,255,.07);
+}
+.agent-service-v-2 .agent-square-single-wraper h5,
+.agent-service-v-3 .agent-square-single-wraper h5{
+	color: #fff;
+}
+.agent-service-v-2 .agent-square-single-wraper{
+	border-left: 1px solid #C1C1C1;
+	border-bottom: 1px solid #C1C1C1;
+	margin-left: -1px
+}
+
+.agent-service-v-2 .row{
+	position: relative;
+	overflow: hidden;
+}
+
+.agent-service-v-2 .col-md-4:nth-child(1).agent-square-single-wraper,
+.agent-service-v-2 .col-md-4:nth-child(3).agent-square-single-wraper{
+	border-top: 1px solid #C1C1C1;
+}
+.agent-service-v-2 .col-md-4:nth-child(5).agent-square-single-wraper{
+	border-bottom: 0px solid transparent;
+}
+
+/* Agent Service, Service Version 2, Agent Service Version 3 And Agent Welcome Botton Hover Effect */
+.agent-service-icon,
+.agent-square-single-wraper h5,
+.agent-welcome-bottom-single-wraper h3{
+	position: relative;
+	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	top: 30px;
+}
+.agent-welcome-bottom-single-wraper .agent-service-icon,
+.agent-welcome-bottom-single-wraper h3{
+	top: 50px;
+}
+.agent-square-single-wraper:hover .agent-service-icon,
+.agent-welcome-bottom-single-wraper:hover .agent-service-icon{
+	top: -10px;
+	background-color: transparent;
+}
+.agent-square-single-wraper:hover h5,
+.agent-welcome-bottom-single-wraper:hover h3{
+	top: 64px;
+	color: #fff;
+}
+.agent-welcome-bottom-single-wraper:hover h3{
+	top: 60px;
+}
+.agent-welcome-bottom-single-wraper:hover .agent-service-icon{
+	top: -20px;
+}
+.agent-square-single-wraper{
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-square-single-wraper:hover{
+	background-color: #333333;
+}
+.agent-welcome-bottom-single-wraper p,
+.agent-square-single-wraper p{
+	margin: 0;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: -100px;
+	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	font-weight: 300;
+	line-height: 1.8;
+}
+.agent-welcome-bottom-single-wraper p{
+	width: auto;
+	top: -70px;
+}
+.agent-square-single-wraper:hover p,
+.agent-welcome-bottom-single-wraper:hover p{
+	color: #fff;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+}
+.agent-service-v-2 .agent-square-single-wraper:hover,
+.agent-service-v-3 .agent-square-single-wraper:hover{
+	background-color: #333333;
+}
+
+/* Agent Version 2 Our Service Version 1 */
+.agent-our-service-section-v2 .agent-service-icon{
+	width: 121px;
+	height: 121px;
+	font-size: 3.750em;
+	line-height: 121px;
+	margin-bottom: 45px;
+}
+.agent-our-service-section-v2 .agent-square-single-wraper{
+	height: 334px;
+}
+.agent-our-service-section-v2 .agent-service-icon,
+.agent-our-service-section-v2 .agent-service-title{
+	top: 50px;
+}
+
+.agent-our-service-section-v2 .agent-square-single-wraper:hover {
+	background-color: #333333;
+	height: calc(334px + 50px) !important;
+	padding-top: 25px;
+	margin-top: -25px;
+	margin-bottom: -25px;
+	padding-bottom: 25px;
+}
+
+
+/* Agent Version 2 Our Service Tab Version */
+
+.agent-our-service-tab-version .nav li{
+	padding: 0;
+	width: 290px;
+	height: 334px;
+	display: table;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-our-service-tab-version .nav li.active{
+	height: 359px;
+	margin-top: -25px;
+}
+
+.agent-our-service-tab-version .nav li a{
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #fff;
+	border: 0px solid;
+	border-radius: 0;
+}
+.agent-our-service-tab-version .nav li a i{
+	display: block;
+	font-size: 3.750em;
+	color: #fff;
+	width: 121px;
+	height: 121px;
+	border-radius: 100%;
+	line-height: 121px;
+	margin: 0 auto 50px auto;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	position: relative;
+	top: 0;
+	text-align: center;
+}
+
+.agent-our-service-tab-version .nav li.active a i{
+	background-color: transparent;
+	font-size: 6.875em;
+	top: -30px;
+}
+.agent-our-service-tab-version .nav li.active a{
+	color: #fff;
+	background-color: rgba(51,51,51,.8);
+	border: 1px solid transparent;
+}
+.agent-our-service-tab-version .nav-tabs{
+	border: 0px solid;
+	position: relative;
+	z-index: 9;
+}
+.agent-our-service-tab-version .nav li a h5{
+	font-size: 1.313em;
+	margin: 0;
+	position: relative;
+	top: 0;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	text-align: center;
+}
+.agent-our-service-tab-version .nav li.active a h5{
+	color: #fff;
+	top: -20px
+}
+.agent-service-left-txt{
+	width: 50%;
+	float: left;
+}
+.agent-service-right-txt{
+	width: 50%;
+	float: left;
+}
+.agent-service-left-txt h3{
+	margin: 0;
+	font-size: 1.313em;
+	margin-bottom: 25px;
+}
+.agent-service-left-txt p{
+	font-weight: 300;
+	margin-bottom: 0;
+	width: 80%;
+}
+.agent-our-service-tab-version .agent-service-tab-content{
+	display: table;
+	height: 330px;
+	width: 100%;
+	background-color: rgba(51,51,51,.82);
+}
+.agent-tab-single-element{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 50px 100px;
+	color: #FFFFFF;
+}
+
+.agent-our-service-tab-version .nav-tabs>li{
+	margin: 0;
+}
+.agent-service-right-txt p{
+	font-weight: 300;
+	margin-bottom: 0;
+}
+.agent-our-service-tab-version .tab-content {
+	position: relative;
+	z-index: 9;
+}
+.faq-page-faq:before {
+	display: none;
+}
+.faq-page-faq .agent-section-heading-v2 h2 {
+	color: #666666;
+}
+
+/*--------------------------------------------------------------============================================================
+										10. WHY CHOSE US
+=============================================================--------------------------------------------------------------*/
+
+.agent-why-choose-us-single-wraper{
+	position: relative;
+	text-align: left;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	min-height: 250px;
+}
+.agent-why-choose-us-single-wraper:before{
+	position: absolute;
+	content: "\f00c";
+	top: -3px;
+	left: 0;
+	font-size: 1.313em;
+	font-family: 'FontAwesome';
+}
+
+.agent-why-choose-us-single-wraper h4{
+	margin: 0;
+	color: #444444;
+	font-size: 1.313em;
+	margin-bottom: 35px;
+}
+.agent-why-choose-us-single-wraper p{
+	font-weight: 300;
+	margin: 0;
+}
+
+/*--------------------------------------------------------------============================================================
+										11. Agent Our Work Section
+=============================================================--------------------------------------------------------------*/
+
+.agent-our-work-section-1{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	background-attachment: fixed;
+}
+.agent-our-work-section-1:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(28,27,27,.7);
+}
+.agent-single-grid-item img{
+	width: 100%;
+}
+.agent-single-grid-item figure {
+	position: relative;
+}
+.agent-work-sections .agent-single-grid-item figure:before{
+	position: absolute;
+	content: "";
+	top: 0%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(93,90,90,.9);
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: all .4s ease-in-out 0s;
+	transition: all .4s ease-in-out 0s;
+}
+.agent-portfolio-single-page-v2.agent-our-work-section-1 .agent-single-grid-item figure:before {
+	display: none;
+}
+.agent-work-sections .agent-single-grid-item figure:hover:before{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.agent-our-work-section-1-v-2:before{
+	background-color: transparent;
+	z-index: -1;
+}
+.agent-single-grid-item .agent-grid-item-content {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	width: 100%;
+	text-align: center;
+	-webkit-transition: all .4s ease-in-out .2s;
+	transition: all .4s ease-in-out .2s;
+	-webkit-transform: translate(-50% , -50%);
+	        transform: translate(-50% , -50%);
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.agent-single-grid-item figure:hover .agent-grid-item-content {
+	top: 50%;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.agent-single-grid-item .agent-grid-item-content a {
+	width: 78px;
+	height: 78px;
+	border-radius: 39px;
+	background-color: #e6af2a;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 3.750em;
+	font-weight: 300;
+	line-height: 78px;
+	margin-bottom: 45px;
+}
+.agent-single-grid-item .agent-grid-item-content h5 {
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 1.313em;
+	font-weight: 600;
+}
+
+/*--------------------------------------------------------------============================================================
+										12. Blog
+=============================================================--------------------------------------------------------------*/
+
+.agent-blog-head figure{
+	position: relative;
+}
+.agent-blog-head figcaption{
+	position: absolute;;
+	top: 20%;
+	left: 20%;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	border-radius: 24px;
+	padding: 10px 20px;
+	-webkit-transform: translate(-20% , -20%);
+	        transform: translate(-20% , -20%);
+}
+.agent-blog-head figure img {
+	width: 100%;
+}
+
+.agent-blog-footer{
+	padding: 50px 40px;
+	text-align: left;
+}
+.agent-blog-footer article{
+	margin-bottom: 50px;
+}
+.agent-blog-footer article a {
+	display: block;
+}
+.agent-blog-footer a h3{
+	font-size: 1.313em;
+	margin: 0;
+	margin-bottom: 50px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	color: #333333;
+}
+.agent-blog-footer p{
+	color: #777777;
+	line-height: 2;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.agent-blog-bio{
+	float: left;
+}
+.agent-blog-bio,
+.agent-blog-links{
+	display: inline-block;
+	width: 50%;
+}
+.agent-blog-bio p,
+.agent-blog-links p{
+	line-height: initial;
+	margin: 0;
+}
+.agent-blog-links{
+	text-align: right;
+}
+.agent-blog-links p{
+	display: inline-block;
+	padding: 0 0 0 20px;
+}
+.agent-blog-links p i,
+.agent-blog-bio p i{
+	padding: 0 5px 0 0;
+}
+.agent-blog-bio p,
+.agent-blog-bio p i{
+	color: #444444;
+}
+.agent-our-blog-single-wraper{
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-our-blog-single-wraper:hover{
+	box-shadow: 0 0 27px rgba(0,0,0,.25);
+}
+
+
+.agent-our-blog-section-v-2 {
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.agent-our-blog-section-v-2:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.4);
+}
+.agent-our-blog-v-2-conatiner{
+	padding: 0 30px;
+}
+.agent-our-blog-v-2-single-item figure{
+	position: relative;
+}
+.agent-our-blog-v-2-single-item figure:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(251,251,251,.87);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-our-blog-v-2-single-item{
+	position: relative;
+}
+.agent-our-blog-v-2-content{
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.agent-our-blog-v-2-single-item.text-right .agent-our-blog-v-2-content{
+	right: 20%;
+	padding: 0 0 0 150px;
+}
+.agent-our-blog-v-2-single-item.text-left .agent-our-blog-v-2-content{
+	left: 10%;
+	padding: 0 150px 0 0;
+}
+
+.agent-our-blog-v-2-content h5{
+	margin: 0;
+	font-size: 1.313em;
+	font-weight: 400;
+	margin-bottom: 25px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-our-blog-v-2-content h2{
+	margin: 0;
+	font-size: 2.250em;
+	margin-bottom: 10px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-our-blog-v-2-content h4{
+	margin: 0;
+	font-size: 1em;
+	font-weight: 300;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-our-blog-v-2-content h4 span{
+}
+.agent-our-blog-v-2-single-item{
+	box-shadow: 0 0 57px rgba(0,0,0,.1);
+}
+.agent-our-blog-v-2-single-item figure{
+	-webkit-transform: scale3d(1,1,1);
+	        transform: scale3d(1,1,1);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-our-blog-v-2-single-item:hover figure{
+	-webkit-transform: scale3d(1.07,1.07,1);
+	        transform: scale3d(1.07,1.07,1);
+	position: relative;
+	z-index: 1;
+}
+.agent-our-blog-v-2-single-item:hover figure:before{
+	background-color: rgba(0,0,0,.76);
+}
+.agent-our-blog-v-2-single-item:hover .agent-our-blog-v-2-content h5,
+.agent-our-blog-v-2-single-item:hover .agent-our-blog-v-2-content h4{
+	color: #FFFFFF;
+}
+.agent-our-blog-btn{
+	margin-top: 100px;
+	position: relative;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										13. Testimonial
+=============================================================--------------------------------------------------------------*/
+
+.agent-testimonial-single-wraper{
+	position: relative;
+	padding: 70px 25px 40px;
+	border: 1px solid #D1D1D1;
+}
+.agent-testimonial-single-wraper figure{
+	position: absolute;
+	width: 76px;
+	height: 76px;
+	top: -18%;
+	left: 50%;
+	-webkit-transform: translate(-50%, 18%);
+	        transform: translate(-50%, 18%);
+}
+.agent-testimonial-single-wraper figure img{
+	border-radius: 100%;
+	width: 76px;
+	height: 76px;
+	position: relative;
+	z-index: 1;
+}
+.agent-testimonial-single-wraper figure:before{
+	position: absolute;
+	content: "";
+	top: -5%;
+	left: -5%;
+	height: 110%;
+	width: 110%;
+	background-color: rgba(230,175,42,.15);
+	border-radius: 100%;
+	border: solid 1px rgba(193,193,193,.27);
+}
+.agent-testimonial-single-wraper p{
+	font-size: 0.875em;
+	font-style: italic;
+	margin-bottom: 40px;
+}
+.agent-testimonial-single-wraper h3{
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 1.313em;
+	margin-bottom: 10px;
+}
+.agent-testimonial-single-wraper h4{
+	margin: 0;
+	color: #555555;
+	font-size: 0.875em;
+	text-transform: capitalize;
+}
+.agent-testimonial-single-wraper h4 span{
+	font-style: italic;
+}
+
+.agent-testimonial-single-wraper-v-2{
+	background-color: #f8f8f8;
+	box-shadow: 0 0 16px rgba(0,0,0,.1);
+	padding: 50px 60px;
+	height: 353px;
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
+.agent-testimonial-all-item figure{
+	width: 50%;
+	float: left;
+}
+.agent-testimonial-bio{
+	width: calc(100% - 141px);
+	float: left;
+}
+.agent-testimonial-all-item figure{
+	width: 141px;
+	height: 141px;
+	background-color: rgba(230,175,42, .15);
+	position: relative;
+	border-radius: 100%;
+}
+.agent-testimonial-all-item figure img{
+	width: 120px !important;
+	height: 120px;
+	border-radius: 100%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.agent-testimonial-bio h3{
+	font-size: 1em;
+	margin: 0;
+	margin-bottom: 15px;
+}
+.agent-testimonial-bio h4{
+	margin: 0;
+	font-weight: 300;
+	font-size: .7em;
+}
+.agent-testimonial-bio h4 span{
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.agent-testimonial-bio{
+	padding: 30px 0 0 15px;
+}
+.agent-testimonial-all-item p{
+	margin: 0;
+	font-weight: 300;
+	font-style: italic;
+	margin-top: 40px;
+	font-size: .8em;
+}
+.agent-testimonials-section-v-2 .owl-stage{
+	padding: 100px 0;
+}
+.agent-testimonials-section-v-2 .active .agent-testimonial-bio h3,
+.agent-testimonials-section-v-2 .active .agent-testimonial-bio h4,
+.agent-testimonials-section-v-2 .active p{
+	color: #e0e0e0
+}
+.agent-testimonials-section-v-2 .active figure{
+	opacity: .4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+.agent-testimonials-section-v-2 .active .agent-testimonial-single-wraper-v-2{
+	background-color: #fff;
+	height: auto;
+	box-shadow: 0 0 5px rgba(0,0,0,.28);
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+}
+#agent-testimonial-slider-v-2.owl-carousel .owl-item {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.agent-testimonials-section-v-2 .center .agent-testimonial-bio h3,
+.agent-testimonials-section-v-2 .center .agent-testimonial-bio h4,
+.agent-testimonials-section-v-2 .center p{
+	color: inherit
+}
+.agent-testimonials-section-v-2 .center figure{
+	opacity: inherit;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+}
+.agent-testimonials-section-v-2 .center .agent-testimonial-single-wraper-v-2{
+	background-color: inherit;
+	-webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+	background-color: #f8f8f8;
+	position: relative;
+	z-index: 9;
+}
+.agent-testimonials-section-v-2 .center + div{
+	position: relative;
+	z-index: -2;
+}
+
+.agent-testimonials-section-v-2 .active{
+	-webkit-transform: translateX(40%);
+	        transform: translateX(40%);
+}
+.agent-testimonials-section-v-2 .center{
+	-webkit-transform: translateX(0%);
+	        transform: translateX(0%);
+}
+.agent-testimonials-section-v-2 .center + div{
+	-webkit-transform: translateX(-40%);
+	        transform: translateX(-40%);
+}
+.agent-testimonials-section-v-2 .customNavigation .prev{
+	margin: 0 22px 0 0;
+}
+.agent-testimonials-section-v-2 .customNavigation .next{
+	margin: 0 0 0 22px;
+}
+.customNavigation a{
+	cursor: pointer;
+}
+/*Grid Testimonials*/
+.agent-testimonial-grid .agent-testimonial-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/*--------------------------------------------------------------============================================================
+										14. Our Clients Slider
+=============================================================--------------------------------------------------------------*/
+
+.agent-slider-single-item{
+	padding: 70px 0;
+	border: 1px solid #F0F0F0;
+	width: 100%;
+	text-align: center;
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-slider-single-item img{
+	height: 28px;
+	width: auto !important;
+	margin: 0 auto;
+	max-width: inherit;
+}
+.agent-slider-single-item:hover{
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+	-webkit-filter: grayscale(0%);
+	        filter: grayscale(0%);
+	background-color: #F8F8F8;
+	border: 1px solid transparent;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										15. Contact Us Section
+=============================================================--------------------------------------------------------------*/
+
+.agent-contact-us-left-side {
+    padding-top: 53px;
+}
+.agent-contact-us-section h4{
+	text-transform: uppercase;
+	font-size: 1.313em;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.agent-contact-us-left-side p{
+	margin: 0;
+	margin-bottom: 50px;
+}
+.agent-contact-details-left{
+	float: left;
+}
+.agent-contact-details-left,
+.agent-contact-details-right{
+	display: inline-block;
+	width: 50%;
+}
+
+.agent-contact-details-left p,
+.agent-contact-details-right p{
+	position: relative;
+	margin: 0;
+	margin-bottom: 25px;
+	padding-left: 70px;
+	line-height: 1.8;
+}
+.agent-contact-details-left p.agent-phone-ico:before,
+.agent-contact-details-left p.agent-home-ico:before,
+.agent-contact-details-right p.agent-map-ico:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 56px;
+	width: 100%;
+	background-image: url(img/icon-phone.png);
+	background-repeat: no-repeat;
+}
+.agent-contact-details-left p.agent-home-ico:before{
+	background-image: url(img/icon-pointer.png);
+}
+.agent-contact-details-right p.agent-map-ico:before{
+	background-image: url(img/icon-mail.png);
+}
+
+
+.agent-contact-us-section .agent-social-links{
+	margin-top: 40px;
+}
+.agent-social-links ul li{
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+.agent-social-links ul li a{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: solid 1px #e6af2a;
+	display: block;
+	text-align: center;
+	line-height: 38px;
+	font-size: 1.125em;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-social-links ul li a:hover{
+	color: #fff;
+}
+
+.agent-contact-us-right-side p{
+	margin-bottom: 65px;
+}
+form#emailform input.error,
+form#emailform textarea.error {
+    border-bottom-color: red;
+}
+.message-update {
+    position: relative;
+    margin-top: 10px;
+}
+.agent-contact-form input[type="text"],
+.agent-contact-form input[type="email"],
+.agent-contact-form textarea{
+	display: block;
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	border: solid 1px #ddd;
+	padding: 0 0 0 15px;
+	margin-bottom: 30px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-contact-form textarea{
+	height: 250px;
+	padding: 15px 0px 0 15px;
+	resize: none;
+}
+.agent-contact-form input[type="text"]:focus,
+.agent-contact-form input[type="email"]:focus,
+.agent-contact-form textarea:focus{
+	background-color: #fff;
+	box-shadow: 0 4px 27px rgba(0,0,0,.07);
+	border-color: #F9F9F9;
+}
+.agent-contact-form input[type="submit"]{
+	width: 100%;
+	height: 80px;
+	color: #fefefe;
+	text-transform: uppercase;
+	border: 0px solid;
+	position: relative;
+	z-index: 4;
+}
+
+.agent-contact-us-right-side{
+	padding: 50px;
+	position: relative;
+	width: 539px;
+	max-width: 100%;
+	margin: 0 auto;
+	box-shadow: 0 -20px 40px rgba(0,0,0,.1);
+	border: 1px solid #DEDEDE;
+	z-index: 4;
+}
+.agent-contact-us-right-side:before, 
+.agent-contact-us-right-side:after {
+	position: absolute;
+	content: "";
+	top: -10px;
+	left: 50%;
+	width: calc(100% - 40px);
+	height: 10px;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+	background-color: #f5f5f5;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	border: 1px solid rgba(219, 219, 219, 0.74);
+}
+.agent-contact-us-right-side:after {
+    top: -19px;
+    width: calc(100% - 75px);
+    z-index: -2;
+    border: 0px solid #DBDBDB;
+    background-color: #f5f5f5;
+}
+.agent-contact-form{
+	position: relative;
+}
+.agent-contact-single-page .agent-contact-form{
+	margin-bottom: 150px;
+}
+.agent-contact-form:before{
+	position: absolute;
+	content: "";
+	bottom: -115px;
+	left: 0;
+	height: 30%;
+	width: 140%;
+	background-color: #fff;
+	-webkit-transform: translateX(-15%);
+	        transform: translateX(-15%);
+	border-radius: 10%;
+}
+
+
+.agent-contact-us-section-v-2.section-padding{
+	padding: 150px 0 0;
+}
+.agent-contact-us-section-v-2 .agent-contact-form:before{
+	background-color: transparent;
+}
+.agent-contact-us-section-v-2 .agent-contact-us-right-side:before,
+.agent-contact-us-section-v-2 .agent-contact-us-right-side:after{
+	box-shadow: none;
+	border: 0px solid;
+	background-color: transparent;
+}
+.agent-contact-us-section-v-2 .agent-contact-us-right-side{
+	margin-bottom: -150px;
+	position: relative;
+	background-color: #fff;
+	z-index: 1;
+	box-shadow: 0 0 62px rgba(0,0,0,.08);
+}
+.agent-contact-us-section-v-2 .agent-contact-form input[type="text"],
+.agent-contact-us-section-v-2 .agent-contact-form input[type="email"],
+.agent-contact-us-section-v-2 .agent-contact-form textarea{
+	border-color: #E6AF2A;
+}
+.agent-contact-us-section-v-2 .agent-contact-form input[type="text"]:focus,
+.agent-contact-us-section-v-2 .agent-contact-form input[type="email"]:focus,
+.agent-contact-us-section-v-2 .agent-contact-form textarea:focus{
+	box-shadow: 0 4px 18px rgba(0,0,0,.11);
+	border-color: transparent;
+}
+.agent-single-footer-wraper-v-2{
+	margin-top: 120px;
+}
+.agent-footer-section-v-2{
+	background-position: top center;
+}
+.agent-footer-section-v-2 p{
+	margin-bottom: 40px;
+}
+
+/*--------------------------------------------------------------============================================================
+										16. Map
+=============================================================--------------------------------------------------------------*/
+
+.agent-map{
+	height: 297px;
+	border: 1px solid #DDDDDD;
+	width: 100%;
+	z-index: 9;
+	margin-top: 100px;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										17. Footer
+=============================================================--------------------------------------------------------------*/
+
+.agent-footer-section .row{
+	margin-bottom: 115px;
+}
+.demo-column ul li{
+	display: inline-block;
+	width: 33%;
+}
+.demo-column ul li a img {
+	width: 100%;
+}
+.demo-column{
+	margin-bottom: 20px;
+}
+.agent-footer-section{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	background-attachment: fixed;
+}
+.agent-footer-section:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(248,248,248,.91);
+}
+.agent-footer-logo img{
+	margin-bottom: 60px;
+}
+.agent-single-footer-wraper p{
+	font-weight: 300;
+	margin-bottom: 0;
+	line-height: 2;
+}
+
+.agent-single-post{
+	margin-bottom: 20px;
+}
+
+.agent-single-post-date-and-time{
+	width: 20%;
+	float: left;
+}
+.agent-single-post a {
+	display: block;
+	width: 80%;
+	float: left;
+	background-color: transparent;
+	padding: 0 0 0 30px;
+}
+.agent-single-post a p{
+	color: #333333;
+	margin: 0;
+}
+.agent-single-post-date-and-time h5{
+	margin: 0;
+	width: 50px;
+	height: 40px;
+	color: #fff;
+	font-size: 1em;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+.agent-single-post-date-and-time h6{
+	margin: 0;
+	width: 50px;
+	height: 20px;
+	background-color: #fff;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	font-weight: 600;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.agent-single-footer-wraper h4{
+	font-size: 1.313em;
+	margin: 0;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.agent-single-footer-wraper input[type="email"]{
+	display: block;
+	width: 100%;
+	height: 55px;
+	background-color: #fff;
+	box-shadow: 0 0 6px rgba(0,0,0,.08);
+	border: 0px solid;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.agent-single-footer-wraper input[type="submit"],
+.agent-single-footer-wraper button{
+	color: #fff;
+	border: 0px solid;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 12px 30px;
+}
+#mc-form label {
+    display: block;
+}
+.agent-copyright-txt{
+	position: relative;
+	font-weight: 400;
+	margin: 0;
+}
+.agent-copyright-txt a{
+}
+.agent-copyright-txt span{
+	display: block;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										 18. Magnific Pop Up
+=============================================================--------------------------------------------------------------*/
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+/*--------------------------------------------------------------============================================================
+										19. Owl SLider Custom
+=============================================================--------------------------------------------------------------*/
+
+#agent-testimonial-slider,
+#agent-welcome-botton-slider {
+	overflow: hidden;
+	padding: 50px 0px;
+	width: 1250px;
+	margin: 0 auto;
+}
+#agent-testimonial-slider .owl-stage,
+#agent-welcome-botton-slider .owl-stage {
+	overflow: hidden;
+	padding: 100px 0 60px !important;
+	width: 1150px;
+	margin: 0 auto;
+}
+#agent-welcome-botton-slider .owl-stage{
+	padding: 0px 0 0px !important;
+}
+#agent-welcome-botton-slider{
+	padding: 60px 0px;
+	margin-top: -60px;
+}
+#agent-welcome-botton-slider.owl-carousel .owl-stage-outer {
+	padding: 60px 0;
+	margin-top: -60px;
+}
+#agent-welcome-botton-slider .owl-stage {
+	overflow: hidden;
+	padding: 60px 0 !important;
+	margin-top: -60px;
+}
+.active .agent-box-shadow{
+	box-shadow: 0 0 13px rgba(0,0,0,.04);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.active .agent-testimonial-single-wraper p,
+.active .agent-testimonial-single-wraper h3,
+.active .agent-testimonial-single-wraper h4{
+	color: #e0e0e0;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.active .agent-testimonial-single-wraper{
+	border-color: #F6F6F6;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.active .agent-testimonial-single-wraper figure{
+	opacity: .4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.active.center .agent-testimonial-single-wraper{
+	box-shadow: 0 0 25px rgba(0,0,0,.11);
+	border: solid 1px rgba(193,193,193,.71);
+	background-color: #FFFFFF;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.active.center .agent-testimonial-single-wraper p,
+.active.center .agent-testimonial-single-wraper h3,
+.active.center .agent-testimonial-single-wraper h4{
+	color: initial;
+}
+.active.center .agent-testimonial-single-wraper figure{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.agent-testimonials-section,
+.agent-welcome-bottom-section,
+.agent-single-page-bottom-slider .container{
+	position: relative;
+}
+.agent-testimonials-section .customNavigation .prev,
+.agent-welcome-bottom-section .customNavigation .prev,
+.agent-single-page-bottom-slider .customNavigation .prev,
+.agent-testimonials-section .customNavigation .next,
+.agent-welcome-bottom-section .customNavigation .next,
+.agent-single-page-bottom-slider .customNavigation .next{
+	position: absolute;
+	top: 60%;
+	left: 0%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	width: 45px;
+	height: 45px;
+	border-radius: 100%;
+	background-color: #c1c1c1;
+	text-align: center;
+	line-height: 45px;
+	color: #FFFFFF;
+	font-size: 22px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	z-index: 9;
+}
+.agent-testimonials-section .customNavigation .next,
+.agent-welcome-bottom-section .customNavigation .next,
+.agent-single-page-bottom-slider .customNavigation .next{
+	left: inherit;
+	right: 0%;
+}
+.agent-single-page-bottom-slider .customNavigation .next,
+.agent-single-page-bottom-slider .customNavigation .prev{
+	top: 50%;
+}
+.agent-single-page-bottom-slider .customNavigation .prev{
+	left: -50px;
+}
+.agent-single-page-bottom-slider .customNavigation .next{
+	right: -50px;
+}
+.agent-welcome-bottom-section .customNavigation .next,
+.agent-welcome-bottom-section .customNavigation .prev{
+	top: calc(50% - 110px);
+}
+.agent-testimonials-section .customNavigation .prev:hover,
+.agent-welcome-bottom-section .customNavigation .prev:hover,
+.agent-testimonials-section .customNavigation .next:hover,
+.agent-welcome-bottom-section .customNavigation .next:hover,
+.agent-single-page-bottom-slider .customNavigation .next:hover,
+.agent-single-page-bottom-slider .customNavigation .prev:hover{
+	background-color: #E6AF2A;
+}
+#agent-testimonial-slider.owl-theme .owl-dots .owl-dot.active{
+	position: relative;
+	top: 5px;
+}
+
+#agent-testimonial-slider.owl-theme .owl-dots .owl-dot.active span{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #EBEBEB;
+	position: relative;
+}
+#agent-testimonial-slider.owl-theme .owl-dots .owl-dot.active span:before{
+	position: absolute;
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background-color: #e6af2a;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+#agent-testimonial-slider.owl-theme .owl-dots .owl-dot span{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: #e6af2a;
+}
+
+
+
+
+
+/*--------------------------------------------------------------============================================================
+												Agent V2 Start
+=============================================================--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------============================================================
+										 20. Agent Version 2 Main Menu
+=============================================================--------------------------------------------------------------*/
+
+.agent-main-menu-area-v2 .agent-main-menu ul li a{
+	color: #FFFFFF;
+}
+.agent-main-menu-area-v2.sticky-menu{
+	background-color: rgba(255,255,255,.9);
+}
+.agent-main-menu-area-v2.sticky-menu .agent-main-menu ul li a{
+	color: #333;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										21. Agent Version 2 Welcome Section
+=============================================================--------------------------------------------------------------*/
+
+.agent-welcome-section-v2:before{
+	background-color: rgba(36,36,36,.85);
+}
+
+.agent-welcome-section-v2 .agent-welcome-content-wraper{
+	background-color: transparent;
+	position: relative;
+	z-index: 1;
+	color: #FFFFFF;
+	width: 60%;
+	padding: 0;
+}
+.agent-welcome-section-v2 .agent-welcome-content-wraper h4{
+	letter-spacing: 2px;
+	font-size: 1.500em;
+	margin: 0;
+	position: relative;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 38px;
+}
+.agent-welcome-section-v2 .agent-welcome-content-wraper h4:before{
+	position: absolute;
+	content: "";
+	bottom: 14%;
+	left: 50%;
+	width: 148px;
+	height: 6px;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	z-index: -1;
+}
+.agent-welcome-section-v2 .agent-welcome-content-wraper h1{
+	text-transform: uppercase;
+	font-size: 4.875em;
+	margin: 0;
+	margin-bottom: 45px;
+}
+.agent-welcome-section-v2 .agent-welcome-content-wraper h1 span{
+	color: #FFFFFF;
+	font-weight: 300;
+}
+.agent-welcome-section-v2 .agent-welcome-content-wraper p{
+	margin: 0 auto 60px auto;
+	line-height: 1.8;
+}
+.agent-welcome-section-v2 .agent-btn{
+	margin: 0 55px 0 0;
+}
+.agent-welcome-section-v2 .agent-btn.border-btn{
+	margin: 0;
+}
+.agent-welcome-section-area .agent-btn:hover {
+	background-color: #FFFFFF;
+	color: #333333;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										22. Agent Version 2 About Section
+=============================================================--------------------------------------------------------------*/
+
+.agent-about-us-section-v2{
+	position: relative;
+}
+
+.agent-about-us-section-v2-half-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 57%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 100%;
+}
+
+.agent-about-us-v2-content{
+	position: relative;
+	z-index: 10;
+	top: 100px;
+}
+.agent-about-us-v2-content h5{
+	margin: 0;
+	font-size: 1.500em;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+.agent-about-us-v2-content h4{
+	text-transform: uppercase;
+	font-size: 3.750em;
+	margin: 0;
+	margin-bottom: 60px;
+}
+.agent-about-us-v2-content h4 span{
+	display: block;
+	font-size: 0.500em;
+}
+.agent-about-us-v2-content p{
+	margin-bottom: 44px;
+	line-height: 1.8;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										23. Agent Version 2 Our Team
+=============================================================--------------------------------------------------------------*/
+
+.agent-our-team-section-area-v2 .agent-section-heading-v2 h2:before{
+	content: "\e046";
+	font-family: 'et-line';
+	font-size: 125px;
+	background-image: none;
+	height: inherit;
+	width: inherit;
+	font-weight: 300;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										24. Agent Version 2 Need any Service ? JUST SAY HI TO START
+=============================================================--------------------------------------------------------------*/
+
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper{
+	width: 100%;
+	text-align: center;
+}
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper h5{
+	text-transform: uppercase;
+	font-size: 1.313em;
+	margin: 0;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	line-height: 1;
+}
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper h2{
+	font-size: 3.125em;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	margin-bottom: 40px;
+	line-height: 1;
+}
+.agent-need-any-service-section-v2 .agent-need-any-service-wraper p{
+	width: 50%;
+	margin: 0 auto;
+}
+.agent-need-any-service-section-v2{
+	padding: 100px 0;
+}
+
+/*--------------------------------------------------------------============================================================
+										25. Agent Version 2 What We Do 
+=============================================================--------------------------------------------------------------*/
+
+.panel-title {
+	font-size: inherit;
+}
+.agent-accordion .panel-title a{
+	display: block;
+	font-size: 1.313em;
+	position: relative;
+	padding: 10px 0 10px 76px;
+}
+.agent-accordion .panel-title a.collapsed:before,
+.agent-accordion .panel-title a:before{
+	position: absolute;
+	content: "+";
+	top: 0;
+	left: 0;
+	width: 46px;
+	height: 46px;
+	box-shadow: 0 0 4px rgba(0,19,0,.13);
+	border: solid 1px #e6af2a;
+	font-size: 1.875em;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 400;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-webkit-transform: rotateX(0deg);
+	        transform: rotateX(0deg);
+}
+.agent-accordion .panel-title a:before{
+	content: "-";
+	border: solid 1px #e6af2a;
+	background-color: transparent;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-webkit-transform: rotateX(360deg);
+	        transform: rotateX(360deg);
+	color: #E6AF2A;
+}
+.agent-accordion .panel-default>.panel-heading{
+	background-color: transparent;
+	border-color: transparent;
+}
+.agent-accordion .panel{
+	border: 0px solid;
+	box-shadow: none;
+}
+.agent-accordion .panel-group .agent-accordion .panel-heading+.panel-collapse>.list-group, 
+.panel-group .panel-heading+.panel-collapse>.panel-body{
+	border: 0px solid;
+}
+.agent-accordion .panel-body p{
+	margin: 0;
+	padding: 0 0 0 80px;
+}
+.agent-accordion .panel-default {
+	margin: 0;
+	margin-bottom: 30px;
+	margin-top: 0 !important;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										26. Revulation SLider Custom
+=============================================================--------------------------------------------------------------*/
+
+.hesperiden.tparrows.tp-leftarrow:before,
+.hesperiden.tparrows.tp-rightarrow:before{
+	content: "\f104";
+	font-family: 'FontAwesome';
+}
+.hesperiden.tparrows.tp-rightarrow:before{
+	content: "\f105";
+}
+.hesperiden.tparrows{
+	border-radius: 0%;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.hesperiden.tparrows:before{
+	line-height: 38px;
+}
+.tp-caption.largewhitebg, .largewhitebg{
+	background-color: transparent;
+}
+.hesperiden.tparrows:hover{
+	background-color: transparent;
+	border-color: #E6AF2A;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										27. Agent Single Page Welcome Section
+=============================================================--------------------------------------------------------------*/
+
+.agent-single-welcome-section{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+}
+.agent-single-welcome-section:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(31,31,10, .88);
+}
+.agent-single-welcome-section > div >div> div> div{
+	height: 430px;
+	width: 100%;
+}
+.agent-single-page-content{
+	text-align: center;
+}
+.agent-single-page-content h2{
+	color: #FFFFFF;
+	margin: 0;
+	font-size: 4.500em;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+	letter-spacing: 4px;
+}
+.agent-single-page-content h2:before{
+	position: absolute;
+	content: "\e033";
+	top: 50%;
+	left: 50%;
+	font-size: 1.944em;
+	font-family: 'et-line';
+	opacity: .21;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=21)";
+	font-weight: 300;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	z-index: -1;
+}
+.agemt-single-page-main-menu .agent-main-menu ul li a{
+	color: #FFFFFF;
+}
+.agent-single-welcome-section .container{
+	position: relative;
+}
+.agent-single-page-breadcumb{
+	position: absolute;
+	bottom: 80px;
+	left: 15px;
+}
+
+.agent-single-page-breadcumb ul li{
+	display: inline-block;
+}
+.agent-single-page-breadcumb ul li a{
+	font-size: 1em;
+	color: #E6AF2A;
+	text-transform: uppercase;
+}
+.agent-single-page-breadcumb ul li i{
+	padding: 0 15px;
+	color: #E6AF2A;
+}
+.breadcumb-active{
+	color: #FFFFFF !important;
+}
+
+/*--------------------------------------------------------------============================================================
+										 28. Great Ideas Special Assignment
+=============================================================--------------------------------------------------------------*/
+
+.agent-simple-text-section-area-v-2{
+	background-color: #F5F5F5;
+	padding: 150px 0 130px 0;
+	position: relative;
+}
+.agent-half-color-bg{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	background-color: #333333;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.agent-simple-text-section-area-v-2 .agent-left-side-simple-text h4{
+	font-size: 2.250em;
+	margin-bottom: 24px;
+}
+.agent-simple-text-section-area-v-2 .agent-left-side-para{
+	margin-bottom: 150px;
+	width: 90%;
+}
+.agent-simple-text-section-area-v-2 .agent-left-side-para p{
+	margin-bottom: 0;
+}
+
+.agent-simple-text-section-area-v-2 .agent-list-items h4{
+	font-size: 1.313em;
+	margin-bottom: 40px;
+	color: #333333;
+}
+.agent-single-right-side-servcie h2{
+	font-size: 2.250em;
+	margin: 0;
+	color: #FFFFFF;
+	margin-left: 5px;
+	float: left;
+	padding: 8px 0;
+}
+.agent-single-right-side-servcie i{
+	width: 15%;
+	float: left;
+	color: #E6AF2A;
+	font-size: 3.750em;
+}
+.agent-single-right-side-servcie-head{
+	margin-bottom: 30px;
+}
+.agent-single-right-side-servcie p{
+	color: #FFFFFF;
+	width: 80%;
+}
+.agent-single-right-side-servcie{
+	margin-bottom: 63px;
+}
+.agent-right-side-service {
+    padding: 0 0 0 30px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										29. WE ARE PROVIDING SERVICES SICNCE 30 YEARS TO OUR COUSTOMERS.
+=============================================================--------------------------------------------------------------*/
+
+.agent-about-page-fun-fact blockquote{
+	border-left: 4px solid #e6af2a;
+	text-transform: uppercase;
+}
+.agent-about-page-fun-fact blockquote h3{
+	margin: 0;
+	font-size: 1.500em;
+	margin-bottom: 25px;
+}
+.agent-about-page-fun-fact blockquote h2{
+	color: #333333;
+	font-size: 2.250em;
+	margin: 0;
+}
+.agent-single-fun-fact{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+.agent-single-fun-fact-content{
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+	margin: 0 auto;
+	background-color: #222;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	display: table;
+}
+.agent-single-fun-fact-content i{
+	font-size: 2.375em;
+	color: #e6af2a;
+	display: block;
+	margin-bottom: 5px;
+}
+.agent-single-fun-fact-content h4{
+	font-size: 1.875em;
+	margin: 0;
+	margin-bottom: 6px;
+}
+.agent-single-fun-fact-content h5{
+	font-size: 0.875em;
+	margin: 0;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										30. Agent About Version 2
+=============================================================--------------------------------------------------------------*/
+
+.agent-about-us-page-v-2.section-padding{
+	padding: 150px 0 80px;
+}
+.agent-video-section {
+    padding: 0 76px 0 100px;
+}
+.agent-video-section figure{
+	position: relative;
+}
+.agent-video-section figure:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(76,54,1,.72);
+	z-index: 1;
+}
+.agent-video-section figcaption{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50% , -50%);
+	        transform: translate(-50% , -50%);
+	z-index: 2;
+}
+.agent-video-section h3{
+	font-size: 1.313em;
+	margin: 0;
+	text-transform: uppercase;
+	margin-bottom: 68px;
+}
+.agent-video-section p strong,
+.agent-video-section p{
+	margin: 0;
+}
+.agent-video-section p strong{
+	margin-bottom: 48px;
+	display: block;
+}
+.agent-video-section figure{
+	display: block;
+	margin-bottom: 34px;
+}
+
+/*--------------------------------------------------------------============================================================
+										31. Agent Service Overview
+=============================================================--------------------------------------------------------------*/
+
+.agent-service-overview .agent-single-right-side-servcie{
+	display: table;
+	height: 389px;
+	background-color: #f8f8f8;
+	padding: 20px;
+	width: 100%;
+	position: relative;
+}
+.agent-service-overview .agent-single-right-side-servcie i{
+	display: block;
+	width: 100%;
+	float: none;
+	margin-bottom: 40px;
+	position: absolute;
+    left: 0;
+    top: 10%;
+}
+.agent-service-overview .agent-single-right-side-servcie h2{
+	display: block;
+	width: 100%;
+	float: none;
+	color: #333333;
+	padding: 0;
+	margin-bottom: 48px;
+	position: absolute;
+    left: 0;
+    top: 30%;
+}
+.agent-service-overview .agent-single-right-side-servcie p{
+	width: 90%;
+    color: #666666;
+    margin: 0;
+    top: 50%;
+    position: absolute;
+    left: 5%;
+}
+.agent-single-right-side-servcie-btn {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+.agent-service-overview .agent-single-right-side-servcie a.agent-btn {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.agent-service-overview .agent-single-right-side-servcie:hover {
+    background-color: #333333;
+    height: calc(389px + 50px) !important;
+    padding-top: 25px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    padding-bottom: 25px;
+    color: #FFFFFF;
+}
+.agent-single-right-side-servcie, 
+.agent-single-right-side-servcie i, 
+.agent-single-right-side-servcie h2 , 
+.agent-single-right-side-servcie p, 
+.agent-single-right-side-servcie a.agent-btn {
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.agent-service-overview .agent-single-right-side-servcie:hover i {
+	top: 7%;
+}
+.agent-service-overview .agent-single-right-side-servcie:hover h2 {
+    top: 25%;
+    color: #fff;
+}
+.agent-service-overview .agent-single-right-side-servcie:hover p {
+    top: 40%;
+    color: #FFFFFF;
+}
+.agent-service-overview .agent-single-right-side-servcie:hover a.agent-btn {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*--------------------------------------------------------------============================================================
+										32. How We Progress Our Work
+=============================================================--------------------------------------------------------------*/
+
+.agent-progress-our-work h3{
+	font-size: 3.125em;
+	margin: 0;
+	margin-bottom: 40px;
+}
+.agent-progress-our-work h2{
+	font-size: 4.875em;
+	margin: 0;
+}
+.agent-work-progress-single{
+	cursor: pointer;
+}
+.agent-work-progress-single span{
+	width: 160px;
+	height: 160px;
+	border: solid 6px #666;
+	display: block;
+	font-size: 4.875em;
+	text-align: center;
+	line-height: 137px;
+	margin: 0 auto 32px auto;
+	position: relative;
+	-webkit-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+}
+.agent-work-progress-single:hover span{
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+	color: #E6AF2A;
+	border-color: #E6AF2A;
+}
+.agent-work-progress-single:before {
+	position: absolute;
+	content: "";
+	top: 25%;
+	width: 90px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #ddd;
+	-webkit-transform: translateX(50%) translateY(26%);
+	        transform: translateX(50%) translateY(26%);
+	right: 0;
+}
+.col-md-3:nth-child(4) .agent-work-progress-single:before{
+	background-color: transparent;
+}
+.agent-work-progress-single h5{
+	font-size: 2.250em;
+	text-transform: capitalize;
+	margin: 0;
+	margin-bottom: 38px;
+	text-align: center;
+	position: relative;
+	top: 0;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-work-progress-single p{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.agent-work-progress-single:hover h5{
+	top: 15px;
+}
+.agent-work-progress-single:hover p{
+	top: 0;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/*--------------------------------------------------------------============================================================
+										34. Map Contact Page
+=============================================================--------------------------------------------------------------*/
+
+.agent-map-v-2 #map{
+	height: 775px;
+	width: 100%;
+	position: relative;
+}
+.agent-map-v-2 #map:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.70);
+	z-index: 1;
+}
+
+/*--------------------------------------------------------------============================================================
+										35. Agent Page Contact Section
+=============================================================--------------------------------------------------------------*/
+
+.agent-contact-section.section-padding{
+	padding: 0 0 150px 0;
+}
+.agent-contact-section .agent-contact-us-right-side{
+	width: 100%;
+	box-shadow: none;
+	border: 0px solid;
+}
+.agent-contact-section .agent-contact-us-right-side,
+.agent-all-contact-details{
+	padding: 0 120px;
+}
+.agent-contact-section .agent-contact-us-right-side:before,
+.agent-contact-section .agent-contact-us-right-side:after{
+	box-shadow: none;
+	background-color: transparent;
+	border: 0px solid;
+}
+.agent-contact-section .agent-contact-form:before {
+	background-color: transparent;
+}
+
+.agent-right-side-input{
+	width: 50%;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.agent-left-side-input{
+	padding: 0 15px 0 0;
+	width: 50%;
+	float: left;
+}
+.agent-contact-section .agent-contact-form input[type="submit"]{
+	height: inherit;
+	width: inherit;
+	padding: 28px 31px;
+	font-weight: 600;
+	border-radius: 3px;
+}
+.agent-contact-section .agent-contact-us-right-side p{
+	margin-bottom: 100px;
+	width: 50%;
+}
+
+.agent-contact-section .agent-contact-us-right-side h4,
+.contact-v-2 h4{
+	margin: 0;
+	font-size: 1.313em;
+	margin-bottom: 35px;
+}
+.single-contact-details{
+	width: 33.33333%;
+	float: left;
+	height: 209px;
+	background-color: #e6af2a;
+	display: table;
+	border-right: 2px solid rgba(255,255,255,.37);
+}
+.single-contact-details:last-child {
+	border-right: 0px solid;
+}
+.agent-contant-page-details{
+	margin-top: -108px;
+	margin-bottom: 150px;
+	position: relative;
+	z-index: 2;
+}
+.single-contact-details p{
+	font-size: 1.500em;
+	margin: 0;
+	color: #FFFFFF;
+	margin-bottom: 13px;
+	line-height: 1;
+}
+.single-contact-details img{
+	display: inline-block;
+	margin-bottom: 36px;
+}
+.agent-contact-section .agent-social-links ul li a{
+	width: 64px;
+	height: 64px;
+	font-size: 2.000em;
+	line-height: 64px;
+}
+
+/* Contact Version 2 */
+.contact-v-2 .agent-contact-us-v-2{
+	margin: 0px 70px -250px 70px;
+	box-shadow: -3px 10px 21px rgba(0,19,0,.34);
+	background-color: #E6AF2A;
+	position: relative;
+	z-index: 2;
+}
+.contact-v-2 .agent-contact-us-left-side-content{
+	width: 50%;
+	float: left;
+	padding: 100px 45px;
+}
+.contact-v-2 .agent-contact-us-right-side-content{
+	width: 50%;
+	float: left;
+	padding: 100px 0 100px 30px;
+}
+.contact-v-2 .agent-contact-form{
+	margin-bottom: 0;
+}
+.contact-v-2 .agent-contact-form:before{
+	background-color: transparent;
+}
+.contact-v-2.section-padding{
+	padding: 150px 0 0 0;
+}
+.contact-v-2 h4{
+	margin: 0;
+	margin-bottom: 50px;
+}
+.contact-v-2 .agent-contact-us-right-side-content h4{
+	color: #FFFFFF;
+	padding: 0 22px;
+}
+.contact-v-2 .agent-contact-us-single-details .agent-contact-us-ico{
+	width: 20%;
+	float: left;
+	padding: 16px 0;
+	text-align: center;
+}
+.contact-v-2 .agent-contact-us-single-details p{
+	width: 80%;
+	float: left;
+	color: #FFFFFF;
+	font-size: 1.500em;
+	margin: 0;
+	padding: 0 15px;
+}
+.contact-v-2 .agent-contact-us-single-details p span{
+	display: block;
+}
+.contact-v-2 .agent-contact-us-single-details{
+	margin-bottom: 50px;
+}
+.contact-v-2 .agent-social-links ul li a{
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+.contact-v-2 .agent-social-links ul li a:hover{
+	background-color: #FFFFFF;
+	color: #E6AF2A;
+}
+.contact-map-v-2.agent-map-v-2 #map:before{
+	background-color: transparent;
+}
+.contact-v-2 .agent-social-links {
+    padding: 0 25px;
+	position: relative;
+	top: 120px;
+}
+
+/*--------------------------------------------------------------============================================================
+										36. Agent Single Portfolio Page
+=============================================================--------------------------------------------------------------*/
+
+.agent-portfolio-single-page-2side-img{
+	position: relative;
+}
+.agent-portfolio-single-page-2side-img:before,
+.agent-portfolio-single-page-2side-img:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	height: 100%;
+	background-image: url(img/2side-bg-img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	box-shadow: 0 0 9px rgba(0,0,0,.1);
+	background-position: center center;
+	left: calc((-100vw + 100%)/2);
+	width: calc((100vw - 100%)/2);
+}
+.agent-portfolio-single-page-2side-img:after{
+	left: inherit;
+	right: calc((-100vw + 100%)/2);
+	background-image: url(img/2side-bg-img-2.jpg);
+}
+.agent-portfolio-single-page-v1 .agent-work-nav.content-margin-top{
+	margin-bottom: 130px;
+}
+.agent-portfolio-btn{
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+.agent-portfolio-single-page-v1.agent-our-work-section-1:before{
+	z-index: -1;
+}
+.agent-portfolio-single-page-v1 .agent-work-nav ul li,
+.agent-portfolio-single-page-v2 .agent-work-nav ul li{
+	display: inline-block;
+	padding: 0;
+}
+.agent-portfolio-single-page-v1 .agent-work-nav ul li a,
+.agent-portfolio-single-page-v2 .agent-work-nav ul li a{
+	color: #333333;
+	font-size: 1.313em;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	-webkit-transition: background-color .4s linear,color .4s linear;
+	transition: background-color .4s linear,color .4s linear;
+	padding: 9px 25px;
+}
+.agent-portfolio-single-page-v1 .agent-work-nav ul li.selected a{
+	color: #E6AF2A;
+}
+
+
+/* Agent Protfolio Version 2 */
+.agent-portfolio-single-page-v2 .agent-single-grid-item{
+	display: table;
+	width: 100%;
+	height: 370px;
+	padding: 15px 15px;
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item figure{
+	display: table-cell;
+	vertical-align: middle;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-portfolio-single-page-v2 .agent-work-nav ul li.selected a{
+	background-color: #E6AF2A;
+	color: #FFFFFF;	
+}
+.agent-portfolio-single-page-v2.section-padding{
+	padding: 150px 0 0 0;
+}
+.agent-portfolio-single-page-v2 .content-margin-top{
+	margin-top: 117px;
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item:before{
+	display: none;
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item figure .agent-single-grid-item-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	        transform: scale3d(1.4,1.4,1);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	visibility: hidden;
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item figure:hover  .agent-single-grid-item-overlay {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	visibility: visible;
+	-webkit-transform: scale3d(1,1,1);
+	        transform: scale3d(1,1,1);
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item figure .agent-single-grid-item-overlay:before {
+	position: absolute;
+	content: "";
+	top: 27px;
+	left: 27px;
+	right: 27px;
+	bottom: 27px;
+	box-shadow: 0 0 0 27px rgba(230, 175, 42, 0.14);
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item figure .agent-grid-item-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item figure .agent-grid-item-content a {
+	color: #333333;
+	font-size: 6.188em;
+	font-weight: 300;
+	line-height: 1;
+	background-color: transparent;
+}
+.agent-portfolio-single-page-v2 .agent-single-grid-item figure:hover {
+	border-color: #F4ECD9;
+}
+
+/*--------------------------------------------------------------============================================================
+										37. Agent Single Blog With Sidebar
+=============================================================--------------------------------------------------------------*/
+
+.agent-single-page-bottom-content{
+	width: 100%;
+	float: left;
+	display: table;
+	height: 234px;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0 30px;
+}
+.agent-single-page-bottom-slider .agent-single-post{
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+}
+.agent-single-page-bottom-content:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(30,30,30,.75);
+	z-index: 1;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	transition: all .4s;
+}
+.agent-single-page-bottom-content:hover:before{
+	background-color: rgba(230,175,42,.85);
+	display: block;
+}
+.agent-single-page-bottom-content .agent-single-post-date-and-time{
+	width: 25%;
+	padding: 5px 0;
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.agent-single-page-bottom-content .agent-single-post a{
+	width: 73%;
+	padding: 0 0 0 20px;
+	line-height: 1.3;
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.agent-single-page-bottom-content .agent-single-post-date-and-time h5{
+	background-color: #e6af2a;
+	color: #333333;
+	font-size: 1.875em;
+	display: block;
+	margin: 0;
+	width: initial;
+	height: inherit;
+	padding: 10px;
+}
+.agent-single-page-bottom-content .agent-single-post-date-and-time h6{
+    width: initial;
+    height: inherit;
+    background-color: #fff;
+    line-height: 35px;
+    font-size: 1.313em;
+    color: #666666;
+}
+.agent-single-page-bottom-content .agent-single-post a p{
+	font-size: 1.500em;
+	color: #fff;
+	font-weight: 600;
+	-webkit-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+}
+.agent-single-page-bottom-content:hover .agent-single-post a p{
+	color: #333333;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										38. Blog Page With Side Bar
+=============================================================--------------------------------------------------------------*/
+
+.agent-iframe {
+	position: relative;
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: auto; 
+	-webkit-overflow-scrolling:touch;
+	border: solid black 1px;
+} 
+.agent-iframe iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.post-format-standard img{
+	width: 100%;
+}
+.agent-blog-single-post{
+	padding: 50px;
+	box-shadow: 0 0 27px rgba(0,0,0,.13);
+	background-color: #FFFFFF;
+	margin-bottom: 70px;
+}
+.agent-blog-single-post .agent-post-header{
+	position: relative;
+}
+.agent-blog-single-post .agent-blog-author-details{
+	width: 100%;
+	padding: 11px 10px;
+	height: 100%;
+	overflow: hidden;
+}
+.post-format-standard .agent-blog-author-details{
+	background-color: #E6AF2A;
+}
+.agent-blog-author{
+	width: 70%;
+	float: left;
+	text-align: left;
+	padding: 0 0 0 30px;
+}
+.agent-blog-social{
+	width: 30%;
+	float: right;
+	text-align: right;
+}
+.agent-blog-author a h4{
+	display: inline-block;
+	margin: 0;
+	padding: 0 0 0 10px;
+	font-size: 1.125em;
+}
+.agent-blog-social .agent-blog-like,
+.agent-blog-social .agent-blog-comment{
+	width: 50%;
+	float: left;
+	display: block;
+}
+.agent-blog-social .agent-blog-like h4,
+.agent-blog-social .agent-blog-comment h4{
+	display: inline-block;
+	margin: 0;
+	padding: 0 0 0 10px;
+	font-size: 1.125em;
+}
+.agent-blog-like {
+	padding: 0 15px 0 0;
+}
+.agent-blog-comment {
+	padding: 0 0 0 15px;
+	text-align: left;
+}
+.agent-post-header {
+    margin-bottom: 30px;
+}
+.post-format-standard .agent-blog-social .agent-blog-like,
+.post-format-standard .agent-blog-social .agent-blog-comment{
+	color: #444444;
+	font-size: 1em;
+}
+.post-format-standard .agent-blog-author a{
+	color: #FFFFFF;
+	font-size: 1em;
+}
+.agent-blog-single-post-footer .agent-blog-publish-date{
+	width: 25%;
+	float: left;
+}
+.agent-blog-single-post-footer .agent-blog-tag{
+	width: 75%;
+	float: left;
+}
+.agent-blog-single-post-footer .agent-blog-publish-date h4,
+.agent-blog-single-post-footer .agent-blog-tag h4{
+	display: inline-block;
+	margin: 0;
+	font-size: 1.125em;
+	padding: 0 0 0 15px;
+}
+.agent-blog-publish-date-and-tag{
+	margin-bottom: 36px;
+}
+.agent-blog-single-post-footer h2{
+	font-size: 2.250em;
+	margin: 0;
+	margin-bottom: 40px;
+	line-height: 1.4;
+}
+.agent-blog-single-post-footer p{
+	margin: 0;
+	line-height: 2;
+}
+.agent-blog-single-post-footer .agent-blog-more-btn-and-social{
+	margin-top: 40px;
+}
+.agent-blog-more-btn-and-social .agent-blog-btn{
+	width: 50%;
+	float: left;
+}
+.agent-blog-more-btn-and-social .agent-blog-social-share-links{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.agent-blog-btn .agent-btn{
+	font-size: 0.679em;
+	padding: 9px 11px;
+}
+.agent-blog-social-share-links ul li{
+	display: inline-block;
+	padding: 0 9px;
+}
+.agent-blog-social-share-links ul li a{
+	font-size: 0.849em;
+	width: 27px;
+	height: 27px;
+	border-radius: 100%;
+	background-color: #B2B2B2;
+	line-height: 27px;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+}
+.post-format-video .agent-blog-author-details,
+.post-format-audio .agent-blog-author-details,
+.post-format-link .agent-blog-author-details,
+.post-format-quote .agent-blog-author-details,
+.post-format-slider .agent-blog-author-details{
+	box-shadow: 0 0 13px rgba(0,0,0,.11);
+	background-color: #f8f8f8;
+}
+
+.post-format-video .agent-blog-author a i,
+.post-format-audio .agent-blog-author a i,
+.post-format-link .agent-blog-author a i,
+.post-format-quote .agent-blog-author a i,
+.post-format-slider .agent-blog-author a i,
+.agent-blog-social .agent-blog-like, 
+.agent-blog-social .agent-blog-comment{
+	color: #444444;
+}
+.post-format-video .agent-blog-author a h4,
+.post-format-audio .agent-blog-author a h4,
+.post-format-link .agent-blog-author a h4,
+.post-format-quote .agent-blog-author a h4,
+.post-format-slider .agent-blog-author a h4{
+	color: #E6AF2A;
+}
+.agent-blog-all-post .agent-pagination-btn {
+    margin-top: 150px;
+}
+.agent-prev,
+.agent-next{
+	font-size: 2.250em;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 1;
+	color: #333333;
+	padding: 0 31px;
+}
+.agent-prev {
+	border-right: 1px solid #ddd;
+}
+.agent-prev i,
+.agent-next i{
+	color: #E6AF2A;
+}
+.agent-prev i {
+	padding: 0 20px 0 0;
+}
+.agent-next i{
+	padding: 0 0 0 20px;
+}
+
+/*--------------------------------------------------------------============================================================
+										39. Side Bar
+=============================================================--------------------------------------------------------------*/
+
+.agent-single-side-bar-form input[type="email"]{
+	height: 52px;
+	background-color: #fff;
+	border: solid 1px #ddd;
+	width: calc(100% - 44px);
+	padding: 0 0 0 30px;
+	float: left;
+}
+.agent-single-side-bar-form input[type="submit"]{
+	border: 0px solid;
+	height: 52px;
+	width: 100%;
+	line-height: 52px;
+	color: #FFFFFF;
+	font-size: 1.170em;
+	width: 48px;
+	margin: 0 0 0 -5px;
+	font-family: 'FontAwesome';
+	float: left;
+}
+.agent-single-side-bar-form,
+.agent-single-side-bar{
+	margin-bottom: 37px;
+}
+.agent-single-side-bar{
+	box-shadow: 0 0 27px rgba(0,0,0,.13);
+	background-color: #FFFFFF;
+	padding: 40px;
+}
+.agent-single-side-bar ul li a{
+	color: #666666;
+	padding: 14px 0;
+	display: block;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-single-side-bar ul li a:hover{
+	color: #E6AF2A;
+}
+.agent-single-side-bar ul li:last-child{
+	border-bottom: 0px dashed;
+}
+.agent-single-side-bar ul li{
+	border-bottom: 1px dashed #EBEBEB;
+}
+.agent-single-side-bar-tag a{
+	border: solid 1px #ddd;
+	display: inline-block;
+	color: #666666;
+	padding: 7px 9px;
+	margin: 4px;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.agent-single-side-bar-tag a:hover{
+	background-color: #E6AF2A;
+	border-color: #E6AF2A;
+	color: #ffffff;
+}
+.agent-single-side-bar h4{
+	font-size: 1.313em;
+	margin: 0;
+	margin-bottom: 25px;
+}
+.agent-blog-link a h4{
+	font-size: 1.875em;
+	margin: 0;
+	color: #333333;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+}
+.agent-blog-link a h4:before{
+	position: absolute;
+	content: "\f0c1";
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50% , -50%);
+	        transform: translate(-50% , -50%);
+	font-family: 'FontAwesome';
+	font-size: 10.000em;
+	color: rgba(68,68,68,.1);
+	z-index: -1;
+	pointer-events: none;
+}
+.agent-blog-link a{
+	display: block;
+}
+.agent-blog-link,
+.agent-blog-quote{
+	background-color: #F8F8F8;
+	width: 100%;
+	padding: 100px 50px;
+	text-align: center;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	box-shadow: 0 0 13px rgba(0,0,0,.11);
+	overflow: hidden;
+}
+
+.agent-blog-quote blockquote{
+	border-color: #E6AF2A;
+}
+
+.agent-blog-post-slider-area{
+	position: relative;
+}
+.agent-blog-post-slider-area .customNavigation .prev,
+.agent-blog-post-slider-area .customNavigation .next{
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	font-size: 2.250em;
+	color: #ffffff;
+	z-index: 9;
+}
+.agent-blog-post-slider-area .customNavigation .next{
+	left: inherit;
+	right: 2%;
+}
+
+/*--------------------------------------------------------------============================================================
+										40. Blog Single Post
+=============================================================--------------------------------------------------------------*/
+
+.agent-blog-single-post-page .agent-blog-single-post{
+	padding: 50px;
+}
+.agent-blog-single-post-page .agent-blog-single-post h2{
+	text-align: center;
+	margin: 0;
+	font-size: 2.250em;
+	margin-bottom: 30px;
+}
+.agent-blog-single-post-page .agent-blog-single-post-footer .agent-blog-publish-date,
+.agent-blog-single-post-page .agent-blog-single-post-footer .agent-blog-tag,
+.agent-blog-page-without-sidebar.agent-blog-single-post-page .agent-blog-single-post-footer .agent-blog-tag,
+.agent-blog-page-without-sidebar.agent-blog-single-post-page .agent-blog-single-post-footer .agent-blog-publish-date{
+	width: 50%;
+	text-align: center;
+}
+.agent-blog-single-post-page .agent-blog-publish-date-and-tag{
+	margin-bottom: 53px;
+}
+.agent-blog-single-post-page .agent-blog-single-post-footer p{
+	color: #666666;
+}
+.agent-blog-single-post-page .agent-blog-single-post-footer p strong{
+	font-weight: 700;
+}
+.agent-blog-single-post-page .agent-blog-single-post-footer p a{
+	text-decoration: underline;
+	color: #E6AF2A;
+	font-style: italic;
+}
+.agent-blog-single-post-page .agent-blog-single-post-footer blockquote{
+	border-left: 4px solid #E6AF2A;
+	color: #555555;
+	font-weight: 600;
+	font-size: 1.313em;
+	margin: 51px 0 35px 20px;
+}
+.agent-blog-single-post-page .agent-post-header{
+	margin-bottom: 36px;
+}
+.agent-blog-single-post-page .agent-blog-single-post-footer p{
+	margin-bottom: 46px;
+}
+.agent-blog-single-post-page .agent-blog-author-details{
+	background-color: transparent;
+	width: 50%;
+	float: left;
+	padding: 0;
+}
+.agent-blog-single-post-page .agent-blog-social{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.agent-blog-single-post-page .agent-blog-comment{
+	padding: 0;
+}
+.agent-blog-single-post-page .agent-blog-tag {
+	text-align: left !important;
+	padding: 0 19px !important;
+}
+
+.agent-blog-single-post-page .agent-blog-publish-date {
+	text-align: right !important;
+	padding: 0 19px !important;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comentor-img{
+	float: left;
+	width: 30%;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comentor-img figure img{
+	width: 187px;
+	height: 187px;
+	background-color: #e6af2a;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comment-bio{
+	float: left;
+	width: 70%;
+	padding: 8px 0;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comentor-img figure{
+	width: 187px;
+	height: 187px;
+	background-color: #e6af2a;
+	border-radius: 100%;
+	position: relative;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comentor-img figure img{
+	border-radius: 100%;
+	border: 2px solid #FFFFFF;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comentor-img figure:before{
+	position: absolute;
+	content: "";
+	top: -11px;
+	left: -11px;
+	width: 208px;
+	height: 208px;
+	border-radius: 100%;
+	background-color: rgba(255,255,255,.18);
+	z-index: -1;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comment-bio h3{
+	text-transform: uppercase;
+	color: #444444;
+	margin: 0;
+	font-size: 1.313em;
+	margin-bottom: 34px;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comment-bio h3 span{
+	color: #FFFFFF;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-comment-bio p{
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+.agent-blog-comentor-bio-and-details .agent-comentor-site-link{
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding: 2px 0;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-social-share-links{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.agent-blog-comentor-bio-and-details .agent-blog-social-share-links ul li a{
+	background-color: #666666;
+	border-radius: 0%;
+	width: 34px;
+	height: 35px;
+	font-size: 1.250em;
+	line-height: 34px;
+}
+.agent-blog-comentor-bio-and-details{
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	padding: 50px 40px;
+}
+.agent-blog-comentor-bio-and-details .agent-comentor-site-link a{
+	color: #FFFFFF;
+	font-size: 1.313em;
+}
+.agent-blog-comentor-bio-and-details .agent-comentor-site-link a i {
+    padding: 0 10px 0 0;
+}
+.agent-blog-single-post-page .agent-blog-single-post{
+	margin-bottom: 75px;
+}
+.agent-blog-single-post-page .agent-blog-single-post-footer .agent-blog-more-btn-and-social{
+	margin-top: 86px;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										41. Agent Blog With Out Side Bar
+=============================================================--------------------------------------------------------------*/
+
+.agent-blog-page-without-sidebar .agent-pagination-btn .text-left,
+.agent-blog-page-without-sidebar .agent-pagination-btn .text-right{
+	width: 50%;
+	float: left;
+}
+.agent-blog-page-without-sidebar .agent-pagination-btn .agent-prev{
+	border: 0px solid;
+}
+.agent-blog-page-without-sidebar .agent-blog-comentor-bio-and-details .agent-comentor-site-link{
+	width: 35%;
+}
+.agent-blog-page-without-sidebar .agent-blog-comentor-bio-and-details .agent-blog-social-share-links{
+	width: 65%;
+}
+.agent-blog-page-without-sidebar.agent-blog-single-post-page .agent-blog-single-post-footer blockquote{
+	padding: 10px 337px 10px 20px;
+}
+.agent-blog-page-without-sidebar .agent-blog-single-post-footer .agent-blog-publish-date{
+	width: 25%;
+}
+.agent-blog-page-without-sidebar .agent-blog-single-post-footer .agent-blog-tag{
+	width: 75%;
+}
+.agent-blog-page-without-sidebar .agent-blog-author i,
+.agent-blog-page-without-sidebar .agent-blog-author h4,
+.agent-blog-page-without-sidebar .agent-blog-social h4,
+.agent-blog-page-without-sidebar .agent-blog-social i{
+	font-size: 1.500em;
+}
+.agent-blog-page-without-sidebar .agent-blog-single-post-footer h2{
+	font-size: 3.125em;
+}
+.agent-blog-page-without-sidebar .agent-blog-publish-date-and-tag{
+	font-size: 1.500em;
+}
+.agent-blog-page-without-sidebar .agent-blog-btn .agent-btn{
+	font-size: 1em;
+	padding: 19px 40px;
+}
+.agent-blog-page-without-sidebar.agent-blog-single-post-page .agent-blog-social{
+	width: 30%;
+}
+.agent-blog-page-without-sidebar .agent-blog-author{
+	width: 70%;
+}
+.agent-blog-page-without-sidebar .agent-blog-more-btn-and-social .agent-blog-social-share-links{
+	padding: 17px 0;
+}
+
+
+/*--------------------------------------------------------------============================================================
+										42. Agent Version 3 Banner Styles
+=============================================================--------------------------------------------------------------*/
+.agent-welcome-section-v3:before {
+        background-color: rgba(36,36,36,.75);
+}
+.agent-welcome-section-v3 .agent-welcome-content-wraper h1 {
+    text-transform: uppercase;
+    font-size: 4.575em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.agent-welcome-section-v3 .agent-welcome-content-wraper {
+    background-color: transparent;
+    position: relative;
+    z-index: 9999;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+.agent-welcome-section-v3 .agent-welcome-content-wraper h4:before {
+    position: absolute;
+    content: "";
+    bottom: 0%;
+    left: 0%;
+    width: 148px;
+    height: 6px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(0%);
+    z-index: -1;
+}
+.agent-welcome-section-v3 .agent-welcome-content-wraper h1 span {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.agent-welcome-section-v3 .agent-welcome-content-wraper h4 {
+    letter-spacing: 2px;
+    font-size: 1.500em;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 38px;
+}
+.agent-welcome-section-v3 .agent-welcome-content-wraper p {
+    margin: 0 auto 60px auto;
+    line-height: 1.8;
+}
+.agent-welcome-section-v3 .agent-btn {
+    margin: 0 20px 0 0;
+}
+.agent-welcome-section-v3 .agent-btn.border-btn {
+    margin: 0;
+}
+.agent-welcome-section-v3 .agent-contact-us-right-side {
+	width: 100%;
+	z-index: 99;
+	padding: 40px 20px;
+	background-color: rgba(33, 33, 33, 0.5);
+	border: 1px solid rgba(33, 33, 33, 0.6);
+}
+.agent-welcome-section-v3 .agent-contact-us-right-side:before, 
+.agent-welcome-section-v3 .agent-contact-us-right-side:after,
+.agent-welcome-section-v3 .agent-contact-form:before {
+	display: none;
+}
+.agent-welcome-section-v3 .agent-contact-form input[type="text"], 
+.agent-welcome-section-v3 .agent-contact-form input[type="email"], 
+.agent-welcome-section-v3 .agent-contact-form textarea {
+    height: 50px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid rgba(221, 221, 221, 0.4);
+    padding: 0 0 0 15px;
+    margin-bottom: 20px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.agent-welcome-section-v3 .agent-contact-form textarea {
+	height: 135px;
+}
+.agent-welcome-section-v3 .agent-contact-us-right-side h4 {
+    font-size: 2.15em;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.agent-welcome-section-v3 .agent-contact-form input[type="submit"] {
+    height: 50px;
+}
+.agent-main-menu-area-v3 .agent-main-menu ul li a {
+    color: #FFFFFF;
+}
+.agent-main-menu-area-v3.sticky-menu .agent-main-menu ul li a {
+    color: #333;
+}
+.agent-main-menu-area-v3.sticky-menu {
+    background-color: rgba(255,255,255,.9);
+}
+
+
+/*--------------------------------------------------------------============================================================
+										43. Agent Version 4 Banner Styles
+=============================================================--------------------------------------------------------------*/
+.agent-welcome-section-v4:before {
+        background-color: rgba(36,36,36,.75);
+}
+.agent-welcome-section-v4 .agent-welcome-content-wraper h1 {
+	text-transform: uppercase;
+	font-size: 4.575em;
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: 700;
+	color: #E6AF2A;
+}
+.agent-welcome-section-v4 .agent-welcome-content-wraper {
+    background-color: transparent;
+    position: relative;
+    z-index: 1 !important;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 0;
+    text-align: right;
+}
+.agent-welcome-section-v4 .agent-welcome-content-wraper h4:before {
+    position: absolute;
+    content: "";
+    bottom: 0%;
+    left: 0%;
+    width: 148px;
+    height: 6px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(0%);
+    z-index: -1;
+}
+.agent-welcome-section-v4 .agent-welcome-content-wraper h1 span {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.agent-welcome-section-v4 .agent-welcome-content-wraper h4 {
+    letter-spacing: 2px;
+    font-size: 1.500em;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 38px;
+}
+.agent-welcome-section-v4 .agent-welcome-content-wraper p {
+    margin: 0 auto 60px auto;
+    line-height: 1.8;
+}
+.agent-welcome-section-v4 .agent-welcome-content-wraper p span {
+	color: #E6AF2A;
+	font-weight: 600;
+}
+.agent-welcome-section-v4 .agent-btn {
+    margin: 0 20px 0 0;
+}
+.agent-welcome-section-v4 .agent-btn.border-btn {
+    margin: 0;
+}
+.agent-welcome-section-v4 .agent-contact-us-right-side {
+	width: 100%;
+	z-index: 99;
+	padding: 40px 20px;
+	background-color: rgba(33, 33, 33, 0.5);
+	border: 1px solid rgba(33, 33, 33, 0.6);
+}
+.agent-welcome-section-v4 .agent-contact-us-right-side:before, 
+.agent-welcome-section-v4 .agent-contact-us-right-side:after,
+.agent-welcome-section-v4 .agent-contact-form:before {
+	display: none;
+}
+.agent-welcome-section-v4 .agent-contact-form input[type="text"], 
+.agent-welcome-section-v4 .agent-contact-form input[type="email"], 
+.agent-welcome-section-v4 .agent-contact-form textarea {
+    height: 50px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid rgba(221, 221, 221, 0.4);
+    padding: 0 0 0 15px;
+    margin-bottom: 20px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.agent-welcome-section-v4 .agent-contact-form textarea {
+	height: 135px;
+}
+.agent-welcome-section-v4 .agent-contact-us-right-side h4 {
+    font-size: 2.15em;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.agent-welcome-section-v4 .agent-contact-form input[type="submit"] {
+    height: 50px;
+}
+.agent-main-menu-area-v4 .agent-main-menu ul li a {
+    color: #FFFFFF;
+}
+.agent-main-menu-area-v4.sticky-menu .agent-main-menu ul li a {
+    color: #333;
+}
+.agent-main-menu-area-v4.sticky-menu {
+    background-color: rgba(255,255,255,.9);
+}
+.agent-welcome-section-v4 .banner-bottom-border {
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    bottom: -150px;
+}
+.agent-welcome-section-v4 .banner-bottom-border:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 150px solid #E6AF2A;
+	border-left: 49vw solid transparent;
+	right: 0;
+	top: 0;
+	z-index: 99;
+}
+.agent-welcome-section-v4 .banner-bottom-border:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 150px solid #E6AF2A;
+	border-right: 50vw solid transparent;
+	left: 0;
+	bottom: 0;
+}
+.banner-social-links {
+    position: relative;
+    z-index: 99;
+}
+.banner-social-links ul li {
+    display: block;
+    margin: 20px 0;
+}
+
+
+
+
+/*--------------------------------------------------------------============================================================
+										44. Agent Version 5 Banner Styles
+=============================================================--------------------------------------------------------------*/
+.agent-main-menu-area-v5 .agent-main-menu ul li a {
+    color: #FFFFFF;
+}
+.agent-welcome-section-v5 .agent-banner-carousel-item:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(43, 139, 227, 0.75);
+	background: -webkit-linear-gradient(to left, rgba(43, 139, 227, 0.75) , rgba(102, 63, 181, 0.75));
+	background: linear-gradient(to left, rgba(43, 139, 227, 0.75) , rgba(102, 63, 181, 0.75));
+}
+.agent-welcome-section-v5 .agent-welcome-content-wraper {
+    background-color: transparent;
+    width: 100%;
+    padding: 0px;
+    color: #FFFFFF;
+}
+.agent-welcome-section-v5 .agent-welcome-content {
+    background-color: transparent;
+    padding: 0px !important;
+    height: inherit;
+}
+.agent-welcome-section-v5 .agent-welcome-content:before, .agent-welcome-section-v5 .agent-welcome-content:after {
+	display: none;
+}
+.agent-welcome-section-v5 .agent-welcome-content p {
+    font-size: 22px;
+    margin: 25px 0 40px;
+    font-weight: 200;
+}
+.agent-welcome-section-v5 .agent-welcome-content .agent-btn {
+	margin: 0 15px;
+}
+.agent-banner-carousel-item {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.agent-welcome-section-v5 .owl-theme .owl-dots {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	bottom: auto;
+	left: auto;
+	width: auto;
+	margin-left: 0;
+	transform: translateY(-50%);
+}
+.agent-welcome-section-v5 .owl-theme .owl-dots .owl-dot {
+	display: block;
+	position: relative;
+	margin: 10px;
+}
+.agent-welcome-section-v5 .owl-theme .owl-dots .owl-dot+.owl-dot {
+    margin-top: 20px;
+}
+.agent-welcome-section-v5 .owl-theme .owl-dots .owl-dot span {
+	width: 17px;
+	height: 17px;
+	background-color: #fff;
+	border: 0;
+	transition: all .4s;
+}
+.agent-welcome-section-v5 .owl-theme .owl-dots .owl-dot.active span {
+    width: 17px;
+    height: 17px;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.25);
+	transition: all .4s;
+}
+.agent-welcome-section-v5 .owl-theme .owl-dots .owl-dot+.owl-dot:before {
+    position: absolute;
+    bottom: 17px;
+    left: 15px;
+    width: 1px;
+    height: 20px;
+    content: '';
+    background-color: rgba(255,255,255,0.25);
+}
+.agent-welcome-section-v5 .owl-theme .owl-dots .owl-dot.active:before {
+    bottom: 21px;
+}
+
+.survey-carousel h4 {
+	color: #2070b3;
+	font-weight: 600;
+}
+
+.survey-carousel .content a {
+	color: #16a085;
+	/* padding-left: 15px; */
+	border-radius: 100px;
+	/* padding-right: 15px; */
+	border: 1px solid #ccc;
+	padding: 5px 15px;
+	font-size: 13px;
+}
+
+.survey-carousel .content a:hover{
+	background-color:#16a085;
+	color:#fff;
+}
+.survey-carousel p {
+	color: rgba(1, 1, 1, 0.58);
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.survey-carousel .border-solid{
+	padding: 20px;
+border: 1px solid #ccc;
+}
+
+.survey-carousel img{
+     max-width: 55px;
+    height: 40px;
+}
+.btn-prev {
+	position: absolute;
+	left: -65px;
+	top: 30%;
+	font-size: 50px;
+	background-color: #16a085;
+	padding: 0px 15px !important;
+	color: #fff;
+}
+.btn-next {
+	position: absolute;
+	right: -65px;
+	top: 30%;
+	font-size: 50px;
+	background-color: #16a085;
+	padding: 0px 15px !important;
+	color: #fff;
+}
+
+.table.pricing-table .empty {
+background: #333333;
+}
+
+.table.pricing-table th.basic {
+background: #E6AF2A;
+}
+
+.table.pricing-table th.premium {
+background: #333333;
+}
+.table.pricing-table th {
+	color: #fff;
+	font-weight: 700;
+	padding: 20px;
+	font-size: 25px;
+	width:30%;
+}
+
+.table.pricing-table td {
+	border: 2px solid rgba(1, 1, 1, 0.04);
+	font-weight: 600;
+	text-align: left;
+	padding: 20px;
+	vertical-align: middle;
+}
+.table.pricing-table .grey {
+	 background-color: rgba(1, 1, 1, 0.04)
+}
+
+
+
+.table.pricing-table td.basic i{
+background: #E6AF2A;
+border-radius: 50%;
+padding: 7px;
+color: #fff;
+}
+
+.table.pricing-table td.premium i{
+background: #333333;
+border-radius: 50%;
+padding: 7px;
+color: #fff;
+}
+.create-btn-basic a,.create-btn-premium a{color:#fff;font-size:25px;}
+.create-btn-basic{background: #E6AF2A;}
+.create-btn-premium{background: #333333;}
+.table.pricing-table td.basic,.table.pricing-table td.premium,.table.pricing-table th,.create-btn-basic,.create-btn-premium{text-align:center !important;}
+
+.table.pricing-table .tbl_price{font-weight:700;font-size: 25px;}
+.table.pricing-table .basic_price{color:red;font-weight:700;font-size: 25px;}
+
+.pricing-wrapper{margin-left: 10%;margin-right: 10%;}
+.basic_a::after {
+	content: "";
+	position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	left: 42%;
+	display: block;
+	width: 50px;
+	height: 50px;
+	top: 50px;
+}
+
+.basic_b::after {
+	content: "";
+	position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	left: 42%;
+	display: block;
+	width: 50px;
+	height: 50px;
+	top: 50px;
+}
+
+.owl-dots{display:none;}
+@media (max-width:900px){
+  .btn-prev ,.btn-next{
+	position: relative;
+	left: 0;
+	top: 0;
+	font-size: 12px;
+	background-color: #16a085;
+	padding: 0px 10px !important;
+	color: #fff;
+}
+}
+.color-black i{
+	background-color: #333333 !important;
+}
+
+@media (max-width:470px){
+
+	.pricing-wrapper{margin: 0px}
+	
+	.pricing-table{font-size: 12px}
+	.pricing-table th,td{padding: 0px;margin: 0px}
+
+	
+
+	
+.basic_a::after {
+	left: 30%;
+	top: 35px;
+}
+	.basic_b::after {
+	left: 30%;
+	top: 35px;
+}
+	
+	
+
+.table.pricing-table .tbl_price,
+.table.pricing-table .basic_price,
+.create-btn-basic a,
+.create-btn-premium a,
+.table.pricing-table th
+{font-size: 15px;}
+
+	
+	
+}
+
+
+
+
+
